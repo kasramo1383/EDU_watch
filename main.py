@@ -411,8 +411,8 @@ def start_once(ctx_stop: threading.Event) -> None:
         except Exception as e:
             logger.error("cannot get the courses for %d: %s", dep_id, e)
             raise
-        # sleep 25 seconds
-        for _ in range(25):
+        # sleep 5 seconds
+        for _ in range(5):
             if ctx_stop.is_set():
                 raise RuntimeError("context cancelled")
             time.sleep(1)
