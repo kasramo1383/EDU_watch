@@ -83,15 +83,16 @@ def format_messages(added, removed, updated):
                 return
             dept_lines.append(f"{emoji} {title}:")
             for k, info in courses.items():
-                line = f"\n- {info.get('Name', 'Unnamed')} (ID: {k})"
+                line = f"- {info.get('Name', 'Unnamed')} (ID: {k})"
                 dept_lines.append(line)
                 if "changes" in info:
                     for field, vals in info["changes"].items():
                         old_val = fields.parse_value(field, vals['old'])
                         new_val = fields.parse_value(field, vals['new'])
                         dept_lines.append(
-                            f"    {fields.parse_name(field)}: {old_val} -> {new_val}"
+                            f"    {fields.parse_name(field)}: {old_val} ◀️ {new_val}"
                         )
+                dept_lines.append('')
 
         render_group(added, "Added Courses", "🟢")
         render_group(removed, "Removed Courses", "🔴")
@@ -103,6 +104,7 @@ def format_messages(added, removed, updated):
 
 class fields:
     NAMES = {
+        'Name': '🪧 نام درس',
         'Lecturer': '👨‍🏫 استاد',
         'Capacity': '📊 ظرفیت',
         'Registered': '📈 ثبت نامی',
@@ -118,12 +120,16 @@ class fields:
         PARSERS = {
             'Sessions': fields._parse_sessions,
         }
-        return PARSERS.get(field, str)(value)
+        def none(value):
+            if value is None:
+                return 'تعریف نشده'
+            return value
+        return PARSERS.get(field, none)(value)
     
     def _parse_sessions(sessions: list) -> str:
         WEEKDAYS = ['شنبه', 'یکشنبه', 'دوشنبه', 'سه‌شنبه', 'چهارشنبه', 'پنجشنبه', 'جمعه']
         if not sessions:
-            return 'null'
+            return 'تعریف نشده'
         first_st = sessions[0].get('start_time')
         first_et = sessions[0].get('end_time')
         if all(s.get('start_time') == first_st and s.get('end_time') == first_et
@@ -157,7 +163,7 @@ def send_telegram_message(text):
         text = text[split_pos:].lstrip("\n")
     
     for chunk in chunks:
-        payload = {"chat_id": CHANNEL_ID, "text": chunk}
+        payload = {"chat_id": CHANNEL_ID, "text": chunk, "parse_mode": "HTML"}
         response = requests.post(TELEGRAM_API_URL, json=payload)
         response.raise_for_status()
 
@@ -188,7 +194,7 @@ def main():
     added, removed, updated = compare_courses(old_data, new_data)
     if not (added or removed or updated):
         return  # No changes — do not send anything
-    
+    print("Detected updates, sending messages...")
     # Send time range message first
     time_range_msg = f"```Time [{old_time_str}] ➡️ [{new_time_str}] ```"
     send_markdown(time_range_msg)
