@@ -5159,14 +5159,14 @@
     "Year": 1404,
     "Semester": 1
   },
-  "22290-1": {
-    "Code": "22290",
+  "22295-1": {
+    "Code": "22295",
     "Group": 1,
-    "Name": "مباحثی در ریاضیات زیستی",
+    "Name": "ریاضیات زیستی",
     "Lecturer": "محمدرضا رزوان",
     "Capacity": 30,
     "Registered": 0,
-    "Units": 0,
+    "Units": 4,
     "ExamDate": "1404/10/28",
     "ExamTime": "09:00",
     "Sessions": [
