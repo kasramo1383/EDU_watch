@@ -10,9 +10,9 @@ TELEGRAM_TOKEN = config("TELEGRAM_TOKEN")
 TELEGRAM_API_URL = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
 
 # Private channel numeric ID (note the negative and 100 prefix)
-# CHANNEL_ID = -1002910685507
+CHANNEL_ID = -1002910685507
 # Test channel:
-CHANNEL_ID = -1002914784215
+# CHANNEL_ID = -1002914784215
 
 # Files
 CURRENT_FILE = "courses_output.json"
