@@ -1,4 +1,6 @@
 import json
+import os
+from datetime import datetime
 import requests
 from decouple import config
 import time
@@ -8,7 +10,9 @@ TELEGRAM_TOKEN = config("TELEGRAM_TOKEN")
 TELEGRAM_API_URL = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
 
 # Private channel numeric ID (note the negative and 100 prefix)
-CHANNEL_ID = -1002910685507
+# CHANNEL_ID = -1002910685507
+# Test channel:
+CHANNEL_ID = -1002914784215
 
 # Files
 CURRENT_FILE = "courses_output.json"
@@ -157,20 +161,44 @@ def send_telegram_message(text):
         response = requests.post(TELEGRAM_API_URL, json=payload)
         response.raise_for_status()
 
+def send_markdown(text):
+    payload = {"chat_id": CHANNEL_ID, "text": text, "parse_mode": "MarkdownV2"}
+    response = requests.post(TELEGRAM_API_URL, json=payload)
+    response.raise_for_status()
+
 # ----- Main function -----
 def main():
+    # Get modification times before loading files
+    try:
+        old_mtime = os.path.getmtime(OLD_FILE)
+        old_time_str = datetime.fromtimestamp(old_mtime).strftime("%Y-%m-%d %H:%M:%S")
+    except FileNotFoundError:
+        old_time_str = "N/A (file not found)"
+    
+    try:
+        new_mtime = os.path.getmtime(CURRENT_FILE)
+        new_time_str = datetime.fromtimestamp(new_mtime).strftime("%Y-%m-%d %H:%M:%S")
+    except FileNotFoundError:
+        new_time_str = "N/A (file not found)"
+    
+    # Load the data
     old_data = load_json(OLD_FILE)
     new_data = load_json(CURRENT_FILE)
 
     added, removed, updated = compare_courses(old_data, new_data)
     if not (added or removed or updated):
         return  # No changes — do not send anything
-
+    
+    # Send time range message first
+    time_range_msg = f"```Time [{old_time_str}] ➡️ [{new_time_str}] ```"
+    send_markdown(time_range_msg)
+    time.sleep(0.5)
+    
+    # Send the actual update messages
     messages = format_messages(added, removed, updated)
     for msg in messages:
         send_telegram_message(msg)
         time.sleep(0.5)  # slight delay to avoid flooding
-
 
 if __name__ == "__main__":
     main()
