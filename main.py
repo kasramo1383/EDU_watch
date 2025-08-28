@@ -388,7 +388,7 @@ def check_diff(ctx_stop: threading.Event, department_id: int, department_name: s
 # -----------------------
 # Main Start loop
 # -----------------------
-def start_once(ctx_stop: threading.Event) -> None:
+def start(ctx_stop: threading.Event, timeout: float) -> None:
     """
     Performs a single scraping pass (Login -> WarmUp -> CheckDiff all departments).
     Returns normally on success; raises on fatal errors.
@@ -412,17 +412,20 @@ def start_once(ctx_stop: threading.Event) -> None:
             logger.error("cannot get the courses for %d: %s", dep_id, e)
             raise
         # sleep between department requests
-        for _ in range(REQUEST_TIMEOUT):
+        logger.info("Sleeping for %s seconds before next request", timeout)
+        waited = 0.0
+        while waited < timeout:
             if ctx_stop.is_set():
+                logger.info("stop event set, breaking department loop")
                 raise RuntimeError("context cancelled")
-            time.sleep(1)
+            time.sleep(1.0)
+            waited += 1.0
 
     logger.info("currently have %d courses", len(COURSES))
 
 
 def parse_duration_string(s: str) -> float:
     """
-    Very small parser for durations like "30s", "1m", "2h" etc.
     Returns seconds as float.
     """
     s = s.strip()
@@ -506,10 +509,17 @@ def main():
     signal.signal(signal.SIGINT, sigint_handler)
     signal.signal(signal.SIGTERM, sigint_handler)
 
+    # parse request_timeout env var
+    try:
+        request_timeout_seconds = parse_duration_string(REQUEST_TIMEOUT)
+    except Exception as e:
+        logger.error("Invalid REQUEST_TIMEOUT format: %s, using default 120 seconds", e)
+        request_timeout_seconds = 120.0
+
     # Start
     logger.info("Starting")
     try:
-        start_once(stop_event)
+        start(stop_event, request_timeout_seconds)
         save_courses_to_file()
     except Exception as e:
         logger.error("Start error: %s", e)
