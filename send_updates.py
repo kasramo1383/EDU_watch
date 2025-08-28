@@ -9,7 +9,7 @@ import time
 TELEGRAM_TOKEN = config("TELEGRAM_TOKEN")
 TELEGRAM_API_URL = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
 
-# Private channel numeric ID (note the negative and 100 prefix)
+# Private channel numeric ID
 CHANNEL_ID = -1002910685507
 # Test channel:
 # CHANNEL_ID = -1002914784215

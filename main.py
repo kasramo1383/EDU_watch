@@ -84,6 +84,7 @@ USER_AGENT = (
 EDU_USERNAME = config('EDU_USERNAME')
 EDU_PASSWORD = config('EDU_PASSWORD')
 PERIOD = config('PERIOD')
+REQUEST_TIMEOUT = config('REQUEST_TIMEOUT')
 OUTPUT_FILE = "courses_output.json"
 ARCHIVE_PATH = "archive"
 
@@ -172,7 +173,6 @@ def parse_exam_date_time(input_str: str) -> Tuple[Optional[str], Optional[str]]:
 
 def parse_course_session(input_str: str) -> List[CourseSession]:
     # Regex:
-    # (?P<days>[^\d]+) از (?P<start>\d{1,2}:\d{1,2}) تا (?P<end>\d{1,2}:\d{1,2})
     pattern = re.compile(r"(?P<days>[^\d]+) از (?P<start>\d{1,2}:\d{1,2}) تا (?P<end>\d{1,2}:\d{1,2})")
     matches = pattern.finditer(input_str or "")
     sessions: List[CourseSession] = []
@@ -307,7 +307,7 @@ def check_diff(ctx_stop: threading.Event, department_id: int, department_name: s
         m = re.search(r"نیمسال (\S+) (\d{4})-(\d{4})", text)
         if m:
             semester_text = m.group(1)
-            # year is second group (end year in Go)
+            # year is second group
             year = int(m.group(3))
             if semester_text == "اول":
                 semester = 1
@@ -411,8 +411,8 @@ def start_once(ctx_stop: threading.Event) -> None:
         except Exception as e:
             logger.error("cannot get the courses for %d: %s", dep_id, e)
             raise
-        # sleep 5 seconds
-        for _ in range(5):
+        # sleep between department requests
+        for _ in range(REQUEST_TIMEOUT):
             if ctx_stop.is_set():
                 raise RuntimeError("context cancelled")
             time.sleep(1)
@@ -506,8 +506,8 @@ def main():
     signal.signal(signal.SIGINT, sigint_handler)
     signal.signal(signal.SIGTERM, sigint_handler)
 
-    # run Start immediately
-    logger.info("Running Start immediately")
+    # Start
+    logger.info("Starting")
     try:
         start_once(stop_event)
         save_courses_to_file()
