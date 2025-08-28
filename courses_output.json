@@ -3592,18 +3592,18 @@
     "Capacity": 40,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": "1404/11/01",
+    "ExamDate": "1404/10/30",
     "ExamTime": "09:00",
     "Sessions": [
       {
-        "day_of_week": 0,
-        "start_time": "15:00",
-        "end_time": "16:30"
+        "day_of_week": 1,
+        "start_time": "16:30",
+        "end_time": "18:00"
       },
       {
-        "day_of_week": 2,
-        "start_time": "15:00",
-        "end_time": "16:30"
+        "day_of_week": 3,
+        "start_time": "16:30",
+        "end_time": "18:00"
       }
     ],
     "Info": null,
@@ -20545,7 +20545,7 @@
     "Code": "27013",
     "Group": 1,
     "Name": "سینتیک در مهندسی مواد",
-    "Lecturer": "سیدخطیب الاسلام صدرنژاد",
+    "Lecturer": "فرزاد فیروزی",
     "Capacity": 40,
     "Registered": 0,
     "Units": 3,
@@ -20553,12 +20553,12 @@
     "ExamTime": null,
     "Sessions": [
       {
-        "day_of_week": 1,
+        "day_of_week": 0,
         "start_time": "10:30",
         "end_time": "12:00"
       },
       {
-        "day_of_week": 3,
+        "day_of_week": 2,
         "start_time": "10:30",
         "end_time": "12:00"
       }
@@ -21056,7 +21056,7 @@
     "Code": "27028",
     "Group": 1,
     "Name": "ترمودینامیک مواد ۱",
-    "Lecturer": "فرزاد فیروزی",
+    "Lecturer": "سیدخطیب الاسلام صدرنژاد",
     "Capacity": 40,
     "Registered": 0,
     "Units": 3,
@@ -21064,14 +21064,14 @@
     "ExamTime": null,
     "Sessions": [
       {
-        "day_of_week": 0,
-        "start_time": "07:30",
-        "end_time": "09:00"
+        "day_of_week": 1,
+        "start_time": "10:30",
+        "end_time": "12:00"
       },
       {
-        "day_of_week": 2,
-        "start_time": "07:30",
-        "end_time": "09:00"
+        "day_of_week": 3,
+        "start_time": "10:30",
+        "end_time": "12:00"
       }
     ],
     "Info": null,
@@ -22713,30 +22713,6 @@
     "Year": 1404,
     "Semester": 1
   },
-  "27899-1": {
-    "Code": "27899",
-    "Group": 1,
-    "Name": "تئوری الکترونی مواد",
-    "Lecturer": "",
-    "Capacity": 25,
-    "Registered": 0,
-    "Units": 2,
-    "ExamDate": null,
-    "ExamTime": null,
-    "Sessions": [
-      {
-        "day_of_week": 2,
-        "start_time": "08:00",
-        "end_time": "10:00"
-      }
-    ],
-    "Info": null,
-    "Department": "مهندسی و علم مواد",
-    "DepartmentCode": 27,
-    "Grade": "bs",
-    "Year": 1404,
-    "Semester": 1
-  },
   "27939-1": {
     "Code": "27939",
     "Group": 1,
@@ -23728,35 +23704,6 @@
     "Year": 1404,
     "Semester": 1
   },
-  "28461-2": {
-    "Code": "28461",
-    "Group": 2,
-    "Name": "مکانیک سیالات ۱",
-    "Lecturer": "امیر شاملو",
-    "Capacity": 35,
-    "Registered": 0,
-    "Units": 3,
-    "ExamDate": "1404/11/01",
-    "ExamTime": "09:00",
-    "Sessions": [
-      {
-        "day_of_week": 1,
-        "start_time": "10:30",
-        "end_time": "12:00"
-      },
-      {
-        "day_of_week": 3,
-        "start_time": "10:30",
-        "end_time": "12:00"
-      }
-    ],
-    "Info": null,
-    "Department": "مهندسی مکانیک",
-    "DepartmentCode": 28,
-    "Grade": "bs",
-    "Year": 1404,
-    "Semester": 1
-  },
   "28461-1": {
     "Code": "28461",
     "Group": 1,
@@ -23777,6 +23724,35 @@
         "day_of_week": 3,
         "start_time": "15:00",
         "end_time": "16:30"
+      }
+    ],
+    "Info": null,
+    "Department": "مهندسی مکانیک",
+    "DepartmentCode": 28,
+    "Grade": "bs",
+    "Year": 1404,
+    "Semester": 1
+  },
+  "28461-2": {
+    "Code": "28461",
+    "Group": 2,
+    "Name": "مکانیک سیالات ۱",
+    "Lecturer": "امیر شاملو",
+    "Capacity": 35,
+    "Registered": 0,
+    "Units": 3,
+    "ExamDate": "1404/11/01",
+    "ExamTime": "09:00",
+    "Sessions": [
+      {
+        "day_of_week": 1,
+        "start_time": "10:30",
+        "end_time": "12:00"
+      },
+      {
+        "day_of_week": 3,
+        "start_time": "10:30",
+        "end_time": "12:00"
       }
     ],
     "Info": null,
@@ -24134,30 +24110,6 @@
     "Year": 1404,
     "Semester": 1
   },
-  "28569-1": {
-    "Code": "28569",
-    "Group": 1,
-    "Name": "اندازه‌گیری و سیستم‌های کنترل",
-    "Lecturer": "کیوان محمدی",
-    "Capacity": 30,
-    "Registered": 0,
-    "Units": 2,
-    "ExamDate": "1404/11/02",
-    "ExamTime": "15:00",
-    "Sessions": [
-      {
-        "day_of_week": 1,
-        "start_time": "15:00",
-        "end_time": "17:00"
-      }
-    ],
-    "Info": null,
-    "Department": "مهندسی مکانیک",
-    "DepartmentCode": 28,
-    "Grade": "bs",
-    "Year": 1404,
-    "Semester": 1
-  },
   "28569-2": {
     "Code": "28569",
     "Group": 2,
@@ -24173,6 +24125,30 @@
         "day_of_week": 1,
         "start_time": "13:00",
         "end_time": "15:00"
+      }
+    ],
+    "Info": null,
+    "Department": "مهندسی مکانیک",
+    "DepartmentCode": 28,
+    "Grade": "bs",
+    "Year": 1404,
+    "Semester": 1
+  },
+  "28569-1": {
+    "Code": "28569",
+    "Group": 1,
+    "Name": "اندازه‌گیری و سیستم‌های کنترل",
+    "Lecturer": "کیوان محمدی",
+    "Capacity": 30,
+    "Registered": 0,
+    "Units": 2,
+    "ExamDate": "1404/11/02",
+    "ExamTime": "15:00",
+    "Sessions": [
+      {
+        "day_of_week": 1,
+        "start_time": "15:00",
+        "end_time": "17:00"
       }
     ],
     "Info": null,
@@ -24259,35 +24235,6 @@
     "Year": 1404,
     "Semester": 1
   },
-  "28654-2": {
-    "Code": "28654",
-    "Group": 2,
-    "Name": "طراحی اجزاء ماشین ۲",
-    "Lecturer": "امیر نورانی",
-    "Capacity": 35,
-    "Registered": 0,
-    "Units": 3,
-    "ExamDate": "1404/10/20",
-    "ExamTime": "09:00",
-    "Sessions": [
-      {
-        "day_of_week": 0,
-        "start_time": "10:30",
-        "end_time": "13:00"
-      },
-      {
-        "day_of_week": 2,
-        "start_time": "10:30",
-        "end_time": "13:00"
-      }
-    ],
-    "Info": null,
-    "Department": "مهندسی مکانیک",
-    "DepartmentCode": 28,
-    "Grade": "bs",
-    "Year": 1404,
-    "Semester": 1
-  },
   "28654-1": {
     "Code": "28654",
     "Group": 1,
@@ -24306,6 +24253,35 @@
       },
       {
         "day_of_week": 3,
+        "start_time": "10:30",
+        "end_time": "13:00"
+      }
+    ],
+    "Info": null,
+    "Department": "مهندسی مکانیک",
+    "DepartmentCode": 28,
+    "Grade": "bs",
+    "Year": 1404,
+    "Semester": 1
+  },
+  "28654-2": {
+    "Code": "28654",
+    "Group": 2,
+    "Name": "طراحی اجزاء ماشین ۲",
+    "Lecturer": "امیر نورانی",
+    "Capacity": 35,
+    "Registered": 0,
+    "Units": 3,
+    "ExamDate": "1404/10/20",
+    "ExamTime": "09:00",
+    "Sessions": [
+      {
+        "day_of_week": 0,
+        "start_time": "10:30",
+        "end_time": "13:00"
+      },
+      {
+        "day_of_week": 2,
         "start_time": "10:30",
         "end_time": "13:00"
       }
@@ -24394,6 +24370,30 @@
     "Year": 1404,
     "Semester": 1
   },
+  "28702-3": {
+    "Code": "28702",
+    "Group": 3,
+    "Name": "آز ترمودینامیک",
+    "Lecturer": "محمدحسن سعیدی",
+    "Capacity": 16,
+    "Registered": 0,
+    "Units": 1,
+    "ExamDate": null,
+    "ExamTime": null,
+    "Sessions": [
+      {
+        "day_of_week": 1,
+        "start_time": "15:00",
+        "end_time": "17:00"
+      }
+    ],
+    "Info": "همزمان با ترمودینامیک2 اخذ شود. امکان حذف w ندارد",
+    "Department": "مهندسی مکانیک",
+    "DepartmentCode": 28,
+    "Grade": "bs",
+    "Year": 1404,
+    "Semester": 1
+  },
   "28702-1": {
     "Code": "28702",
     "Group": 1,
@@ -24433,30 +24433,6 @@
         "day_of_week": 3,
         "start_time": "13:00",
         "end_time": "15:00"
-      }
-    ],
-    "Info": "همزمان با ترمودینامیک2 اخذ شود. امکان حذف w ندارد",
-    "Department": "مهندسی مکانیک",
-    "DepartmentCode": 28,
-    "Grade": "bs",
-    "Year": 1404,
-    "Semester": 1
-  },
-  "28702-3": {
-    "Code": "28702",
-    "Group": 3,
-    "Name": "آز ترمودینامیک",
-    "Lecturer": "محمدحسن سعیدی",
-    "Capacity": 16,
-    "Registered": 0,
-    "Units": 1,
-    "ExamDate": null,
-    "ExamTime": null,
-    "Sessions": [
-      {
-        "day_of_week": 1,
-        "start_time": "15:00",
-        "end_time": "17:00"
       }
     ],
     "Info": "همزمان با ترمودینامیک2 اخذ شود. امکان حذف w ندارد",
@@ -24514,30 +24490,6 @@
     "Year": 1404,
     "Semester": 1
   },
-  "28703-2": {
-    "Code": "28703",
-    "Group": 2,
-    "Name": "آز مکانیک سیالات",
-    "Lecturer": "بیژن فرهانیه",
-    "Capacity": 16,
-    "Registered": 0,
-    "Units": 1,
-    "ExamDate": null,
-    "ExamTime": null,
-    "Sessions": [
-      {
-        "day_of_week": 2,
-        "start_time": "15:00",
-        "end_time": "17:00"
-      }
-    ],
-    "Info": "همزمان با سیالات2 اخذ شود. امکان حذف w ندارد",
-    "Department": "مهندسی مکانیک",
-    "DepartmentCode": 28,
-    "Grade": "bs",
-    "Year": 1404,
-    "Semester": 1
-  },
   "28703-4": {
     "Code": "28703",
     "Group": 4,
@@ -24553,6 +24505,30 @@
         "day_of_week": 4,
         "start_time": "10:00",
         "end_time": "12:00"
+      }
+    ],
+    "Info": "همزمان با سیالات2 اخذ شود. امکان حذف w ندارد",
+    "Department": "مهندسی مکانیک",
+    "DepartmentCode": 28,
+    "Grade": "bs",
+    "Year": 1404,
+    "Semester": 1
+  },
+  "28703-2": {
+    "Code": "28703",
+    "Group": 2,
+    "Name": "آز مکانیک سیالات",
+    "Lecturer": "بیژن فرهانیه",
+    "Capacity": 16,
+    "Registered": 0,
+    "Units": 1,
+    "ExamDate": null,
+    "ExamTime": null,
+    "Sessions": [
+      {
+        "day_of_week": 2,
+        "start_time": "15:00",
+        "end_time": "17:00"
       }
     ],
     "Info": "همزمان با سیالات2 اخذ شود. امکان حذف w ندارد",
@@ -24586,17 +24562,23 @@
     "Year": 1404,
     "Semester": 1
   },
-  "28708-3": {
-    "Code": "28708",
-    "Group": 3,
-    "Name": "آز دینامیک و ارتعاشات",
-    "Lecturer": "حسن صیادی",
-    "Capacity": 10,
+  "28704-1": {
+    "Code": "28704",
+    "Group": 1,
+    "Name": "آز انتقال حرارت",
+    "Lecturer": "محمدحسن سعیدی",
+    "Capacity": 20,
     "Registered": 0,
     "Units": 1,
     "ExamDate": null,
     "ExamTime": null,
-    "Sessions": [],
+    "Sessions": [
+      {
+        "day_of_week": 2,
+        "start_time": "15:00",
+        "end_time": "17:00"
+      }
+    ],
     "Info": "امکان حذف w ندارد",
     "Department": "مهندسی مکانیک",
     "DepartmentCode": 28,
@@ -24651,6 +24633,24 @@
     "Group": 4,
     "Name": "آز دینامیک و ارتعاشات",
     "Lecturer": "حامد مرادی",
+    "Capacity": 10,
+    "Registered": 0,
+    "Units": 1,
+    "ExamDate": null,
+    "ExamTime": null,
+    "Sessions": [],
+    "Info": "امکان حذف w ندارد",
+    "Department": "مهندسی مکانیک",
+    "DepartmentCode": 28,
+    "Grade": "bs",
+    "Year": 1404,
+    "Semester": 1
+  },
+  "28708-3": {
+    "Code": "28708",
+    "Group": 3,
+    "Name": "آز دینامیک و ارتعاشات",
+    "Lecturer": "حسن صیادی",
     "Capacity": 10,
     "Registered": 0,
     "Units": 1,
@@ -24851,6 +24851,30 @@
       }
     ],
     "Info": null,
+    "Department": "مهندسی مکانیک",
+    "DepartmentCode": 28,
+    "Grade": "bs",
+    "Year": 1404,
+    "Semester": 1
+  },
+  "28908-1": {
+    "Code": "28908",
+    "Group": 1,
+    "Name": "آز مهندسی دریا",
+    "Lecturer": "محمدسعید سیف",
+    "Capacity": 7,
+    "Registered": 0,
+    "Units": 1,
+    "ExamDate": null,
+    "ExamTime": null,
+    "Sessions": [
+      {
+        "day_of_week": 3,
+        "start_time": "16:30",
+        "end_time": "18:30"
+      }
+    ],
+    "Info": "مخصوص دانشجویان دریا- امکان حذف w ندارد",
     "Department": "مهندسی مکانیک",
     "DepartmentCode": 28,
     "Grade": "bs",
@@ -32180,6 +32204,456 @@
     "Year": 1404,
     "Semester": 1
   },
+  "42374-1": {
+    "Code": "42374",
+    "Group": 1,
+    "Name": "درآمدی بر فلسفه",
+    "Lecturer": "ابراهیم آزادگان،  فرحمند",
+    "Capacity": 50,
+    "Registered": 0,
+    "Units": 3,
+    "ExamDate": null,
+    "ExamTime": null,
+    "Sessions": [
+      {
+        "day_of_week": 4,
+        "start_time": "10:00",
+        "end_time": "13:00"
+      }
+    ],
+    "Info": "«از دروس الزامی دوره فرعی فلسفه علم» (ویژه دانشجویان دوره فرعی) - کلیه دانشجویان کارشناسی دانشگاه",
+    "Department": "گروه فلسفه علم",
+    "DepartmentCode": 42,
+    "Grade": "bs",
+    "Year": 1404,
+    "Semester": 1
+  },
+  "42384-1": {
+    "Code": "42384",
+    "Group": 1,
+    "Name": "درآمدی بر فیزیک",
+    "Lecturer": "",
+    "Capacity": 20,
+    "Registered": 0,
+    "Units": 3,
+    "ExamDate": null,
+    "ExamTime": null,
+    "Sessions": [],
+    "Info": "درس جبرانی (اجباری در ترم اول دانشجو) برای دانشجویان ارشد ورودی 1404 گروه که کارشناسی آنها در علوم انسانی است - دانشجویان دوره فرعی «فلسفه علم»، کلیه دانشجویان کارشناسی دانشگاه",
+    "Department": "گروه فلسفه علم",
+    "DepartmentCode": 42,
+    "Grade": "bs",
+    "Year": 1404,
+    "Semester": 1
+  },
+  "42389-1": {
+    "Code": "42389",
+    "Group": 1,
+    "Name": "متافیزیک",
+    "Lecturer": "سید علی طاهری خرم آبادی",
+    "Capacity": 20,
+    "Registered": 0,
+    "Units": 3,
+    "ExamDate": null,
+    "ExamTime": null,
+    "Sessions": [
+      {
+        "day_of_week": 3,
+        "start_time": "13:30",
+        "end_time": "16:30"
+      }
+    ],
+    "Info": "درس جبرانی (اجباری در ترم اول دانشجو) برای دانشجویان ارشد ورودی 1404 گروه که کارشناسی آنها در رشته های علوم پایه، فنی و یا مهندسی است - دانشجویان دوره فرعی «فلسفه علم»، کلیه دانشجویان کارشناسی دانشگاه",
+    "Department": "گروه فلسفه علم",
+    "DepartmentCode": 42,
+    "Grade": "bs",
+    "Year": 1404,
+    "Semester": 1
+  },
+  "42222-1": {
+    "Code": "42222",
+    "Group": 1,
+    "Name": "تاریخ علم ۱",
+    "Lecturer": "امیرمحمد گمینی",
+    "Capacity": 25,
+    "Registered": 0,
+    "Units": 3,
+    "ExamDate": null,
+    "ExamTime": null,
+    "Sessions": [
+      {
+        "day_of_week": 2,
+        "start_time": "10:00",
+        "end_time": "13:00"
+      }
+    ],
+    "Info": "«از دروس الزامی دورۀ ارشد»، ویژه دانشجویان ارشد ورودی 1404 گروه",
+    "Department": "گروه فلسفه علم",
+    "DepartmentCode": 42,
+    "Grade": "bs",
+    "Year": 1404,
+    "Semester": 1
+  },
+  "42231-1": {
+    "Code": "42231",
+    "Group": 1,
+    "Name": "فیزیک و فلسفه ۱",
+    "Lecturer": "",
+    "Capacity": 20,
+    "Registered": 0,
+    "Units": 3,
+    "ExamDate": null,
+    "ExamTime": null,
+    "Sessions": [],
+    "Info": "«از دروس اختیاری دورۀ ارشد» - کلیه دانشجویان گروه و دانشگاه",
+    "Department": "گروه فلسفه علم",
+    "DepartmentCode": 42,
+    "Grade": "bs",
+    "Year": 1404,
+    "Semester": 1
+  },
+  "42234-1": {
+    "Code": "42234",
+    "Group": 1,
+    "Name": "فلسفه علم ۱",
+    "Lecturer": "جواد اکبری تختمشلو",
+    "Capacity": 22,
+    "Registered": 0,
+    "Units": 3,
+    "ExamDate": null,
+    "ExamTime": null,
+    "Sessions": [
+      {
+        "day_of_week": 1,
+        "start_time": "13:30",
+        "end_time": "16:30"
+      }
+    ],
+    "Info": "«از دروس الزامی دورۀ ارشد»، ویژه دانشجویان ارشد ورودی 1404 گروه (اجباری در ترم اول دانشجو)حداکثر ظرفیت برای  مقطع  دکتری 0  می باشد.حداکثر ظرفیت برای  مقطع  کارشناسی ارشد 0  می باشد.حداکثر ظرفیت برای  مقطع  کارشناسی 0  می باشد.حداکثر ظرفیت برای  مقطع  کارشناسی ارشد دانشکده  گروه فلسفه علم 25  می باشد.",
+    "Department": "گروه فلسفه علم",
+    "DepartmentCode": 42,
+    "Grade": "bs",
+    "Year": 1404,
+    "Semester": 1
+  },
+  "42242-1": {
+    "Code": "42242",
+    "Group": 1,
+    "Name": "مقولات ویژه در فلسفه علم",
+    "Lecturer": "جواد اکبری تختمشلو",
+    "Capacity": 20,
+    "Registered": 0,
+    "Units": 3,
+    "ExamDate": null,
+    "ExamTime": null,
+    "Sessions": [
+      {
+        "day_of_week": 3,
+        "start_time": "13:00",
+        "end_time": "16:00"
+      }
+    ],
+    "Info": "«از دروس اختیاری دورۀ ارشد» - کلیه دانشجویان گروه و دانشگاه",
+    "Department": "گروه فلسفه علم",
+    "DepartmentCode": 42,
+    "Grade": "bs",
+    "Year": 1404,
+    "Semester": 1
+  },
+  "42258-1": {
+    "Code": "42258",
+    "Group": 1,
+    "Name": "فلسفه ذهن ۱",
+    "Lecturer": "",
+    "Capacity": 20,
+    "Registered": 0,
+    "Units": 3,
+    "ExamDate": null,
+    "ExamTime": null,
+    "Sessions": [
+      {
+        "day_of_week": 1,
+        "start_time": "16:00",
+        "end_time": "19:00"
+      }
+    ],
+    "Info": "«از دروس اختیاری دورۀ ارشد» - کلیه دانشجویان گروه و دانشگاه",
+    "Department": "گروه فلسفه علم",
+    "DepartmentCode": 42,
+    "Grade": "bs",
+    "Year": 1404,
+    "Semester": 1
+  },
+  "42383-1": {
+    "Code": "42383",
+    "Group": 1,
+    "Name": "مبانی منطق",
+    "Lecturer": "",
+    "Capacity": 25,
+    "Registered": 0,
+    "Units": 3,
+    "ExamDate": null,
+    "ExamTime": null,
+    "Sessions": [],
+    "Info": "«از دروس الزامی دورۀ ارشد»، ویژه دانشجویان ارشد ورودی 1404 گروه (اجباری در ترم اول دانشجو)",
+    "Department": "گروه فلسفه علم",
+    "DepartmentCode": 42,
+    "Grade": "bs",
+    "Year": 1404,
+    "Semester": 1
+  },
+  "42400-1": {
+    "Code": "42400",
+    "Group": 1,
+    "Name": "پایان‌نامه کارشناسی‌ارشد",
+    "Lecturer": "",
+    "Capacity": 0,
+    "Registered": 0,
+    "Units": 0,
+    "ExamDate": null,
+    "ExamTime": null,
+    "Sessions": [],
+    "Info": null,
+    "Department": "گروه فلسفه علم",
+    "DepartmentCode": 42,
+    "Grade": "bs",
+    "Year": 1404,
+    "Semester": 1
+  },
+  "42320-1": {
+    "Code": "42320",
+    "Group": 1,
+    "Name": "تاریخ علم تمدن اسلامی",
+    "Lecturer": "بنفشه افتخاری",
+    "Capacity": 20,
+    "Registered": 0,
+    "Units": 3,
+    "ExamDate": null,
+    "ExamTime": null,
+    "Sessions": [
+      {
+        "day_of_week": 2,
+        "start_time": "13:30",
+        "end_time": "16:30"
+      }
+    ],
+    "Info": "«درس جبرانی (الزامی در ترم اول دانشجو) برای دانشجویان دکتری ورودی 1404گروه» - کلیه دانشجویان گروه و دانشگاه",
+    "Department": "گروه فلسفه علم",
+    "DepartmentCode": 42,
+    "Grade": "bs",
+    "Year": 1404,
+    "Semester": 1
+  },
+  "42330-1": {
+    "Code": "42330",
+    "Group": 1,
+    "Name": "فلسفه و جامعه",
+    "Lecturer": "ابراهیم آزادگان",
+    "Capacity": 50,
+    "Registered": 0,
+    "Units": 3,
+    "ExamDate": null,
+    "ExamTime": null,
+    "Sessions": [
+      {
+        "day_of_week": 4,
+        "start_time": "15:00",
+        "end_time": "18:00"
+      }
+    ],
+    "Info": "«از دروس اختیاری دورۀ ارشد»، کلیه دانشجویان گروه و دانشگاه",
+    "Department": "گروه فلسفه علم",
+    "DepartmentCode": 42,
+    "Grade": "bs",
+    "Year": 1404,
+    "Semester": 1
+  },
+  "42373-1": {
+    "Code": "42373",
+    "Group": 1,
+    "Name": "مقدمه‌ای بر فلسفه علم",
+    "Lecturer": "مصطفی تقوی",
+    "Capacity": 50,
+    "Registered": 0,
+    "Units": 3,
+    "ExamDate": null,
+    "ExamTime": null,
+    "Sessions": [
+      {
+        "day_of_week": 4,
+        "start_time": "10:00",
+        "end_time": "13:00"
+      }
+    ],
+    "Info": "«از دروس الزامی دوره فرعی فلسفه علم» - کلیه دانشجویان کارشناسی و ارشد دانشگاه (به استثناء دانشجویان دوره ارشد گروه)",
+    "Department": "گروه فلسفه علم",
+    "DepartmentCode": 42,
+    "Grade": "bs",
+    "Year": 1404,
+    "Semester": 1
+  },
+  "42382-1": {
+    "Code": "42382",
+    "Group": 1,
+    "Name": "فلسفه دانشگاه",
+    "Lecturer": "مهدی فاتح راد",
+    "Capacity": 20,
+    "Registered": 0,
+    "Units": 3,
+    "ExamDate": null,
+    "ExamTime": null,
+    "Sessions": [],
+    "Info": "«از دروس اختیاری دورۀ ارشد»، کلیه دانشجویان گروه و دانشگاه",
+    "Department": "گروه فلسفه علم",
+    "DepartmentCode": 42,
+    "Grade": "bs",
+    "Year": 1404,
+    "Semester": 1
+  },
+  "42000-1": {
+    "Code": "42000",
+    "Group": 1,
+    "Name": "امتحان جامع دکتری",
+    "Lecturer": "",
+    "Capacity": 0,
+    "Registered": 0,
+    "Units": 0,
+    "ExamDate": null,
+    "ExamTime": null,
+    "Sessions": [],
+    "Info": null,
+    "Department": "گروه فلسفه علم",
+    "DepartmentCode": 42,
+    "Grade": "bs",
+    "Year": 1404,
+    "Semester": 1
+  },
+  "42001-1": {
+    "Code": "42001",
+    "Group": 1,
+    "Name": "پیشنهاد پژوهشی",
+    "Lecturer": "",
+    "Capacity": 0,
+    "Registered": 0,
+    "Units": 0,
+    "ExamDate": null,
+    "ExamTime": null,
+    "Sessions": [],
+    "Info": null,
+    "Department": "گروه فلسفه علم",
+    "DepartmentCode": 42,
+    "Grade": "bs",
+    "Year": 1404,
+    "Semester": 1
+  },
+  "42542-1": {
+    "Code": "42542",
+    "Group": 1,
+    "Name": "فلسفه علم پیشرفته ۱",
+    "Lecturer": "مصطفی تقوی",
+    "Capacity": 5,
+    "Registered": 0,
+    "Units": 2,
+    "ExamDate": null,
+    "ExamTime": null,
+    "Sessions": [
+      {
+        "day_of_week": 1,
+        "start_time": "09:30",
+        "end_time": "11:30"
+      }
+    ],
+    "Info": "«از دروس الزامی دورۀ دکتری گروه»، ویژه دانشجویان دکتری ورودی 1404 گروهحداکثر ظرفیت برای  مقطع  کارشناسی ارشد 0  می باشد.حداکثر ظرفیت برای  مقطع  کارشناسی 0  می باشد.",
+    "Department": "گروه فلسفه علم",
+    "DepartmentCode": 42,
+    "Grade": "bs",
+    "Year": 1404,
+    "Semester": 1
+  },
+  "42544-1": {
+    "Code": "42544",
+    "Group": 1,
+    "Name": "فلسفه غرب پیشرفته",
+    "Lecturer": "سید علی طاهری خرم آبادی",
+    "Capacity": 5,
+    "Registered": 0,
+    "Units": 2,
+    "ExamDate": null,
+    "ExamTime": null,
+    "Sessions": [
+      {
+        "day_of_week": 1,
+        "start_time": "14:00",
+        "end_time": "16:00"
+      }
+    ],
+    "Info": "«از دروس الزامی دورۀ دکتری گروه»، ویژه دانشجویان دکتری ورودی 1404 گروهحداکثر ظرفیت برای  مقطع  کارشناسی 0  می باشد.حداکثر ظرفیت برای  مقطع  کارشناسی ارشد 0  می باشد.",
+    "Department": "گروه فلسفه علم",
+    "DepartmentCode": 42,
+    "Grade": "bs",
+    "Year": 1404,
+    "Semester": 1
+  },
+  "42549-1": {
+    "Code": "42549",
+    "Group": 1,
+    "Name": "فلسفه اسلامی پیشرفته ۱",
+    "Lecturer": "سیدحسن حسینی سروری",
+    "Capacity": 5,
+    "Registered": 0,
+    "Units": 2,
+    "ExamDate": null,
+    "ExamTime": null,
+    "Sessions": [
+      {
+        "day_of_week": 2,
+        "start_time": "09:00",
+        "end_time": "11:00"
+      }
+    ],
+    "Info": "«از دروس الزامی دورۀ دکتری گروه»، ویژه دانشجویان دکتری ورودی 1404 گروه",
+    "Department": "گروه فلسفه علم",
+    "DepartmentCode": 42,
+    "Grade": "bs",
+    "Year": 1404,
+    "Semester": 1
+  },
+  "42800-1": {
+    "Code": "42800",
+    "Group": 1,
+    "Name": "رساله دکتری",
+    "Lecturer": "",
+    "Capacity": 0,
+    "Registered": 0,
+    "Units": 0,
+    "ExamDate": null,
+    "ExamTime": null,
+    "Sessions": [],
+    "Info": null,
+    "Department": "گروه فلسفه علم",
+    "DepartmentCode": 42,
+    "Grade": "bs",
+    "Year": 1404,
+    "Semester": 1
+  },
+  "42801-1": {
+    "Code": "42801",
+    "Group": 1,
+    "Name": "دفاع از رساله دکتری",
+    "Lecturer": "",
+    "Capacity": 0,
+    "Registered": 0,
+    "Units": 0,
+    "ExamDate": null,
+    "ExamTime": null,
+    "Sessions": [],
+    "Info": "دانشجویان دکتری ورودی 95 و به بعد می بایست در ترمی که قصد دفاع از رسالۀ خویش را دارند در این درس ثبت نام نموده باشند",
+    "Department": "گروه فلسفه علم",
+    "DepartmentCode": 42,
+    "Grade": "bs",
+    "Year": 1404,
+    "Semester": 1
+  },
   "44021-1": {
     "Code": "44021",
     "Group": 1,
@@ -36303,13 +36777,13 @@
     "Sessions": [
       {
         "day_of_week": 0,
-        "start_time": "13:30",
-        "end_time": "15:00"
+        "start_time": "12:00",
+        "end_time": "13:30"
       },
       {
         "day_of_week": 2,
-        "start_time": "13:30",
-        "end_time": "15:00"
+        "start_time": "12:00",
+        "end_time": "13:30"
       }
     ],
     "Info": null,
@@ -39852,7 +40326,7 @@
         "end_time": "13:30"
       }
     ],
-    "Info": "توجه: درس هر هفته بصورت حضوری برگزار خواهد شد.",
+    "Info": "توجه: درس هر هفته بصورت حضوری برگزار خواهد شد.\r\nمحل تشکیل کلاس: کلاس C1",
     "Department": "مهندسی صنایع (پردیس کیش)",
     "DepartmentCode": 51,
     "Grade": "bs",
@@ -41170,7 +41644,7 @@
     "Capacity": 35,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": "1404/10/21",
+    "ExamDate": "1404/10/18",
     "ExamTime": "09:00",
     "Sessions": [
       {
@@ -41324,8 +41798,8 @@
     "Capacity": 35,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/20",
+    "ExamTime": "12:30",
     "Sessions": [
       {
         "day_of_week": 2,
@@ -41669,8 +42143,8 @@
     "Capacity": 35,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/21",
+    "ExamTime": "09:00",
     "Sessions": [
       {
         "day_of_week": 4,
@@ -41971,23 +42445,23 @@
     "Year": 1404,
     "Semester": 1
   },
-  "54108-1": {
-    "Code": "54108",
+  "54113-1": {
+    "Code": "54113",
     "Group": 1,
     "Name": "حسابداری برای مدیران",
     "Lecturer": "احمد آژنگ",
-    "Capacity": 0,
+    "Capacity": 8,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": "1404/10/18",
-    "ExamTime": "09:00",
+    "ExamDate": null,
+    "ExamTime": null,
     "Sessions": [],
     "Info": "توجه: این درس مختص دانشجویان کارشناسی ارشد مدیریت MBA می باشد سایردانشجویان اجازه اخذ ندارند.",
     "Department": "مدیریت (پردیس کیش)",
     "DepartmentCode": 54,
     "Grade": "bs",
-    "Year": 1404,
-    "Semester": 1
+    "Year": 0,
+    "Semester": 0
   },
   "54138-1": {
     "Code": "54138",
@@ -42015,8 +42489,8 @@
     "Department": "مدیریت (پردیس کیش)",
     "DepartmentCode": 54,
     "Grade": "bs",
-    "Year": 1404,
-    "Semester": 1
+    "Year": 0,
+    "Semester": 0
   },
   "54138-2": {
     "Code": "54138",
@@ -42033,8 +42507,8 @@
     "Department": "مدیریت (پردیس کیش)",
     "DepartmentCode": 54,
     "Grade": "bs",
-    "Year": 1404,
-    "Semester": 1
+    "Year": 0,
+    "Semester": 0
   },
   "54161-1": {
     "Code": "54161",
@@ -42051,8 +42525,8 @@
     "Department": "مدیریت (پردیس کیش)",
     "DepartmentCode": 54,
     "Grade": "bs",
-    "Year": 1404,
-    "Semester": 1
+    "Year": 0,
+    "Semester": 0
   },
   "54161-2": {
     "Code": "54161",
@@ -42080,8 +42554,26 @@
     "Department": "مدیریت (پردیس کیش)",
     "DepartmentCode": 54,
     "Grade": "bs",
-    "Year": 1404,
-    "Semester": 1
+    "Year": 0,
+    "Semester": 0
+  },
+  "54184-1": {
+    "Code": "54184",
+    "Group": 1,
+    "Name": "مدیریت فروش و خرده فروشی",
+    "Lecturer": "مهدی قندی آرانی",
+    "Capacity": 8,
+    "Registered": 0,
+    "Units": 3,
+    "ExamDate": "1404/11/01",
+    "ExamTime": "09:00",
+    "Sessions": [],
+    "Info": "توجه: این درس مختص دانشجویان کارشناسی ارشد مدیریت MBA می باشد سایردانشجویان اجازه اخذ ندارند.",
+    "Department": "مدیریت (پردیس کیش)",
+    "DepartmentCode": 54,
+    "Grade": "bs",
+    "Year": 0,
+    "Semester": 0
   },
   "54224-1": {
     "Code": "54224",
@@ -42098,8 +42590,8 @@
     "Department": "مدیریت (پردیس کیش)",
     "DepartmentCode": 54,
     "Grade": "bs",
-    "Year": 1404,
-    "Semester": 1
+    "Year": 0,
+    "Semester": 0
   },
   "54232-1": {
     "Code": "54232",
@@ -42127,8 +42619,8 @@
     "Department": "مدیریت (پردیس کیش)",
     "DepartmentCode": 54,
     "Grade": "bs",
-    "Year": 1404,
-    "Semester": 1
+    "Year": 0,
+    "Semester": 0
   },
   "54233-1": {
     "Code": "54233",
@@ -42156,8 +42648,8 @@
     "Department": "مدیریت (پردیس کیش)",
     "DepartmentCode": 54,
     "Grade": "bs",
-    "Year": 1404,
-    "Semester": 1
+    "Year": 0,
+    "Semester": 0
   },
   "54414-1": {
     "Code": "54414",
@@ -42180,8 +42672,8 @@
     "Department": "مدیریت (پردیس کیش)",
     "DepartmentCode": 54,
     "Grade": "bs",
-    "Year": 1404,
-    "Semester": 1
+    "Year": 0,
+    "Semester": 0
   },
   "54454-1": {
     "Code": "54454",
@@ -42209,8 +42701,8 @@
     "Department": "مدیریت (پردیس کیش)",
     "DepartmentCode": 54,
     "Grade": "bs",
-    "Year": 1404,
-    "Semester": 1
+    "Year": 0,
+    "Semester": 0
   },
   "55007-1": {
     "Code": "55007",
