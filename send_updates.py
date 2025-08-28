@@ -112,7 +112,18 @@ class fields:
         'ExamTime': '🕒 ساعت آزمون',
         'Sessions': '🗓️ برنامه هفتگی',
         'Info': '💬 توضیحات',
+        # Unlikely to change:
+        'Code': 'کد درس',
+        'Group': 'گروه درس',
+        'Units': 'واحد',
+        'Year': 'سال',
+        'Semester': 'ترم',
+        'Units': 'واحد',
+        'Department': 'دانشکده',
+        'DepartmentCode': 'کد دانشکده',
+        'Grade': 'مقطع',
     }
+
     def parse_name(field: str) -> str:
         return fields.NAMES.get(field, field)
     
