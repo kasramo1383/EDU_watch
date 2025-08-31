@@ -132,7 +132,7 @@ class fields:
             'Sessions': fields._parse_sessions,
         }
         def none(value):
-            if value is None:
+            if value is None or value is '':
                 return 'تعریف نشده'
             return value
         return PARSERS.get(field, none)(value)
