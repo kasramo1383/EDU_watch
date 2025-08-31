@@ -184,7 +184,11 @@ def send_markdown(text):
     response.raise_for_status()
 
 # ----- Main function -----
-def main():
+def main(logger=None):
+    if not logger:
+        import logging
+        logger = logging.getLogger("edu_scraper")
+        logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s: %(message)s")
     # Get modification times before loading files
     try:
         old_mtime = os.path.getmtime(OLD_FILE)
@@ -203,9 +207,11 @@ def main():
     new_data = load_json(CURRENT_FILE)
 
     added, removed, updated = compare_courses(old_data, new_data)
+
     if not (added or removed or updated):
+        logger.info("No changes detected between this session and the previous one. Will not send any message")
         return  # No changes — do not send anything
-    print("Detected updates, sending messages...")
+    logger.info("Detected updates, sending messages via Telegram API")
     # Send time range message first
     time_range_msg = f"```Time [{old_time_str}] ➡️ [{new_time_str}] ```"
     send_markdown(time_range_msg)

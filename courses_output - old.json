@@ -3318,7 +3318,7 @@
     "Capacity": 40,
     "Registered": 0,
     "Units": 2,
-    "ExamDate": "1404/10/29",
+    "ExamDate": "1404/11/01",
     "ExamTime": "09:00",
     "Sessions": [
       {
@@ -3809,7 +3809,7 @@
     "Code": "21680",
     "Group": 1,
     "Name": "مباحث ویژه در مهندسی صنایع",
-    "Lecturer": "مریم اسماعیلی",
+    "Lecturer": "مریم اسمعیلی",
     "Capacity": 20,
     "Registered": 0,
     "Units": 3,
@@ -11013,7 +11013,7 @@
         "end_time": "10:30"
       }
     ],
-    "Info": "ساعات تشکیل کلاس در هر دو گروه یکسان است . معیار انتخاب گروه ساعت تمرین می باشدساعات رفع اشکال:  يکشنبه  12:30 تا 13:30",
+    "Info": "ساعت کلاس تمرین یکشنبه12:30 تا 13:30دانشکده فیزیک\r\nمعیار انتخاب گروه ساعت تمرین می باشدساعات رفع اشکال:  يکشنبه  12:30 تا 13:30",
     "Department": "فیزیک",
     "DepartmentCode": 24,
     "Grade": "bs",
@@ -11042,7 +11042,7 @@
         "end_time": "10:30"
       }
     ],
-    "Info": "ساعات تشکیل کلاس در هر دو گروه یکسان است . معیار انتخاب گروه ساعت تمرین می باشدساعات رفع اشکال:  دوشنبه  12:30 تا 13:30",
+    "Info": "ساعت کلاس تمرین دوشنبه 12:30 تا 13:30 دانشکده فیزیک \r\nمعیار انتخاب گروه ساعت تمرین می باشدساعات رفع اشکال:  دوشنبه  12:30 تا 13:30",
     "Department": "فیزیک",
     "DepartmentCode": 24,
     "Grade": "bs",
@@ -11173,8 +11173,8 @@
     "Capacity": 35,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": "1404/10/29",
-    "ExamTime": "15:00",
+    "ExamDate": "1404/11/01",
+    "ExamTime": "09:00",
     "Sessions": [
       {
         "day_of_week": 0,
@@ -11367,8 +11367,8 @@
     "Capacity": 35,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": "1404/10/23",
-    "ExamTime": "09:00",
+    "ExamDate": "1404/10/24",
+    "ExamTime": "15:00",
     "Sessions": [
       {
         "day_of_week": 1,
@@ -14294,40 +14294,6 @@
     "Year": 1404,
     "Semester": 1
   },
-  "25741-1": {
-    "Code": "25741",
-    "Group": 1,
-    "Name": "تبدیل انرژی الکتریکی ۱ و آزمایشگاه",
-    "Lecturer": "ایمان عسکریان ابیانه",
-    "Capacity": 25,
-    "Registered": 0,
-    "Units": 4,
-    "ExamDate": "1404/10/29",
-    "ExamTime": "15:00",
-    "Sessions": [
-      {
-        "day_of_week": 1,
-        "start_time": "13:00",
-        "end_time": "16:00"
-      },
-      {
-        "day_of_week": 1,
-        "start_time": "09:00",
-        "end_time": "10:30"
-      },
-      {
-        "day_of_week": 3,
-        "start_time": "09:00",
-        "end_time": "10:30"
-      }
-    ],
-    "Info": "آز: یکشنبه عصر",
-    "Department": "مهندسی برق",
-    "DepartmentCode": 25,
-    "Grade": "bs",
-    "Year": 1404,
-    "Semester": 1
-  },
   "25741-2": {
     "Code": "25741",
     "Group": 2,
@@ -14362,29 +14328,34 @@
     "Year": 1404,
     "Semester": 1
   },
-  "25742-2": {
-    "Code": "25742",
-    "Group": 2,
-    "Name": "سیگنال‌ها و سیستم‌ها",
-    "Lecturer": "حمید بهروزی",
-    "Capacity": 38,
+  "25741-1": {
+    "Code": "25741",
+    "Group": 1,
+    "Name": "تبدیل انرژی الکتریکی ۱ و آزمایشگاه",
+    "Lecturer": "ایمان عسکریان ابیانه",
+    "Capacity": 25,
     "Registered": 0,
-    "Units": 3,
-    "ExamDate": "1404/10/22",
-    "ExamTime": "09:00",
+    "Units": 4,
+    "ExamDate": "1404/10/29",
+    "ExamTime": "15:00",
     "Sessions": [
       {
-        "day_of_week": 0,
-        "start_time": "07:30",
-        "end_time": "09:00"
+        "day_of_week": 1,
+        "start_time": "13:00",
+        "end_time": "16:00"
       },
       {
-        "day_of_week": 2,
-        "start_time": "07:30",
-        "end_time": "09:00"
+        "day_of_week": 1,
+        "start_time": "09:00",
+        "end_time": "10:30"
+      },
+      {
+        "day_of_week": 3,
+        "start_time": "09:00",
+        "end_time": "10:30"
       }
     ],
-    "Info": null,
+    "Info": "آز: یکشنبه عصر",
     "Department": "مهندسی برق",
     "DepartmentCode": 25,
     "Grade": "bs",
@@ -14420,34 +14391,29 @@
     "Year": 1404,
     "Semester": 1
   },
-  "25743-5": {
-    "Code": "25743",
-    "Group": 5,
-    "Name": "مدارهای منطقی وسیستم دیجیتال و آز",
-    "Lecturer": "حامد شاه منصوری",
+  "25742-2": {
+    "Code": "25742",
+    "Group": 2,
+    "Name": "سیگنال‌ها و سیستم‌ها",
+    "Lecturer": "حمید بهروزی",
     "Capacity": 38,
     "Registered": 0,
-    "Units": 4,
-    "ExamDate": "1404/10/25",
-    "ExamTime": "15:00",
+    "Units": 3,
+    "ExamDate": "1404/10/22",
+    "ExamTime": "09:00",
     "Sessions": [
       {
-        "day_of_week": 1,
-        "start_time": "10:30",
-        "end_time": "12:00"
+        "day_of_week": 0,
+        "start_time": "07:30",
+        "end_time": "09:00"
       },
       {
-        "day_of_week": 3,
-        "start_time": "10:30",
-        "end_time": "12:00"
-      },
-      {
-        "day_of_week": 4,
-        "start_time": "13:00",
-        "end_time": "16:00"
+        "day_of_week": 2,
+        "start_time": "07:30",
+        "end_time": "09:00"
       }
     ],
-    "Info": "آز: چهارشنبه عصر",
+    "Info": null,
     "Department": "مهندسی برق",
     "DepartmentCode": 25,
     "Grade": "bs",
@@ -14522,11 +14488,11 @@
     "Year": 1404,
     "Semester": 1
   },
-  "25743-3": {
+  "25743-5": {
     "Code": "25743",
-    "Group": 3,
+    "Group": 5,
     "Name": "مدارهای منطقی وسیستم دیجیتال و آز",
-    "Lecturer": "مهدی شعبانی",
+    "Lecturer": "حامد شاه منصوری",
     "Capacity": 38,
     "Registered": 0,
     "Units": 4,
@@ -14535,55 +14501,21 @@
     "Sessions": [
       {
         "day_of_week": 1,
-        "start_time": "13:00",
-        "end_time": "16:00"
-      },
-      {
-        "day_of_week": 1,
-        "start_time": "09:00",
-        "end_time": "10:30"
+        "start_time": "10:30",
+        "end_time": "12:00"
       },
       {
         "day_of_week": 3,
-        "start_time": "09:00",
-        "end_time": "10:30"
-      }
-    ],
-    "Info": "آز: یکشنبه عصر",
-    "Department": "مهندسی برق",
-    "DepartmentCode": 25,
-    "Grade": "bs",
-    "Year": 1404,
-    "Semester": 1
-  },
-  "25743-2": {
-    "Code": "25743",
-    "Group": 2,
-    "Name": "مدارهای منطقی وسیستم دیجیتال و آز",
-    "Lecturer": "مهدی شعبانی",
-    "Capacity": 38,
-    "Registered": 0,
-    "Units": 4,
-    "ExamDate": "1404/10/25",
-    "ExamTime": "15:00",
-    "Sessions": [
+        "start_time": "10:30",
+        "end_time": "12:00"
+      },
       {
-        "day_of_week": 0,
+        "day_of_week": 4,
         "start_time": "13:00",
         "end_time": "16:00"
-      },
-      {
-        "day_of_week": 1,
-        "start_time": "09:00",
-        "end_time": "10:30"
-      },
-      {
-        "day_of_week": 3,
-        "start_time": "09:00",
-        "end_time": "10:30"
       }
     ],
-    "Info": "آز: شنبه عصر",
+    "Info": "آز: چهارشنبه عصر",
     "Department": "مهندسی برق",
     "DepartmentCode": 25,
     "Grade": "bs",
@@ -14725,6 +14657,64 @@
     "Year": 1404,
     "Semester": 1
   },
+  "25751-3": {
+    "Code": "25751",
+    "Group": 3,
+    "Name": "سیستم‌های مخابراتی",
+    "Lecturer": "محمدرضا پاک روان",
+    "Capacity": 30,
+    "Registered": 0,
+    "Units": 3,
+    "ExamDate": "1404/10/30",
+    "ExamTime": "15:00",
+    "Sessions": [
+      {
+        "day_of_week": 1,
+        "start_time": "07:30",
+        "end_time": "09:00"
+      },
+      {
+        "day_of_week": 3,
+        "start_time": "07:30",
+        "end_time": "09:00"
+      }
+    ],
+    "Info": null,
+    "Department": "مهندسی برق",
+    "DepartmentCode": 25,
+    "Grade": "bs",
+    "Year": 1404,
+    "Semester": 1
+  },
+  "25751-4": {
+    "Code": "25751",
+    "Group": 4,
+    "Name": "سیستم‌های مخابراتی",
+    "Lecturer": "حمید بهروزی",
+    "Capacity": 28,
+    "Registered": 0,
+    "Units": 3,
+    "ExamDate": "1404/10/24",
+    "ExamTime": "15:00",
+    "Sessions": [
+      {
+        "day_of_week": 0,
+        "start_time": "09:00",
+        "end_time": "10:30"
+      },
+      {
+        "day_of_week": 2,
+        "start_time": "09:00",
+        "end_time": "10:30"
+      }
+    ],
+    "Info": null,
+    "Department": "مهندسی برق",
+    "DepartmentCode": 25,
+    "Grade": "bs",
+    "Year": 1404,
+    "Semester": 1
+  },
   "25751-2": {
     "Code": "25751",
     "Group": 2,
@@ -14783,69 +14773,11 @@
     "Year": 1404,
     "Semester": 1
   },
-  "25751-4": {
-    "Code": "25751",
-    "Group": 4,
-    "Name": "سیستم‌های مخابراتی",
-    "Lecturer": "حمید بهروزی",
-    "Capacity": 28,
-    "Registered": 0,
-    "Units": 3,
-    "ExamDate": "1404/10/24",
-    "ExamTime": "15:00",
-    "Sessions": [
-      {
-        "day_of_week": 0,
-        "start_time": "09:00",
-        "end_time": "10:30"
-      },
-      {
-        "day_of_week": 2,
-        "start_time": "09:00",
-        "end_time": "10:30"
-      }
-    ],
-    "Info": null,
-    "Department": "مهندسی برق",
-    "DepartmentCode": 25,
-    "Grade": "bs",
-    "Year": 1404,
-    "Semester": 1
-  },
-  "25751-3": {
-    "Code": "25751",
-    "Group": 3,
-    "Name": "سیستم‌های مخابراتی",
-    "Lecturer": "محمدرضا پاک روان",
-    "Capacity": 30,
-    "Registered": 0,
-    "Units": 3,
-    "ExamDate": "1404/10/30",
-    "ExamTime": "15:00",
-    "Sessions": [
-      {
-        "day_of_week": 1,
-        "start_time": "07:30",
-        "end_time": "09:00"
-      },
-      {
-        "day_of_week": 3,
-        "start_time": "07:30",
-        "end_time": "09:00"
-      }
-    ],
-    "Info": null,
-    "Department": "مهندسی برق",
-    "DepartmentCode": 25,
-    "Grade": "bs",
-    "Year": 1404,
-    "Semester": 1
-  },
-  "25753-3": {
+  "25753-2": {
     "Code": "25753",
-    "Group": 3,
+    "Group": 2,
     "Name": "تحلیل سیستم‌های انرژی الکتریکی ۱",
-    "Lecturer": "مهدی وکیلیان",
+    "Lecturer": "محمود فتوحی فیروزآباد",
     "Capacity": 25,
     "Registered": 0,
     "Units": 3,
@@ -14853,14 +14785,14 @@
     "ExamTime": "09:00",
     "Sessions": [
       {
-        "day_of_week": 0,
-        "start_time": "07:30",
-        "end_time": "09:00"
+        "day_of_week": 1,
+        "start_time": "10:30",
+        "end_time": "12:00"
       },
       {
-        "day_of_week": 2,
-        "start_time": "07:30",
-        "end_time": "09:00"
+        "day_of_week": 3,
+        "start_time": "10:30",
+        "end_time": "12:00"
       }
     ],
     "Info": null,
@@ -14899,11 +14831,11 @@
     "Year": 1404,
     "Semester": 1
   },
-  "25753-2": {
+  "25753-3": {
     "Code": "25753",
-    "Group": 2,
+    "Group": 3,
     "Name": "تحلیل سیستم‌های انرژی الکتریکی ۱",
-    "Lecturer": "محمود فتوحی فیروزآباد",
+    "Lecturer": "مهدی وکیلیان",
     "Capacity": 25,
     "Registered": 0,
     "Units": 3,
@@ -14911,14 +14843,14 @@
     "ExamTime": "09:00",
     "Sessions": [
       {
-        "day_of_week": 1,
-        "start_time": "10:30",
-        "end_time": "12:00"
+        "day_of_week": 0,
+        "start_time": "07:30",
+        "end_time": "09:00"
       },
       {
-        "day_of_week": 3,
-        "start_time": "10:30",
-        "end_time": "12:00"
+        "day_of_week": 2,
+        "start_time": "07:30",
+        "end_time": "09:00"
       }
     ],
     "Info": null,
@@ -15122,7 +15054,7 @@
     "Group": 1,
     "Name": "میدانها و امواج",
     "Lecturer": "مهدی احمدی بروجنی",
-    "Capacity": 0,
+    "Capacity": 38,
     "Registered": 0,
     "Units": 3,
     "ExamDate": "1404/10/30",
@@ -15151,7 +15083,7 @@
     "Group": 1,
     "Name": "مخابرات دیجیتال",
     "Lecturer": "سید محمد کرباسی",
-    "Capacity": 0,
+    "Capacity": 38,
     "Registered": 0,
     "Units": 3,
     "ExamDate": "1404/10/30",
@@ -15349,30 +15281,6 @@
     "Year": 1404,
     "Semester": 1
   },
-  "25770-1": {
-    "Code": "25770",
-    "Group": 1,
-    "Name": "اخلاق مهندسی و محیط زیست",
-    "Lecturer": "فروهر فرزانه",
-    "Capacity": 30,
-    "Registered": 0,
-    "Units": 1,
-    "ExamDate": "1404/10/30",
-    "ExamTime": "09:00",
-    "Sessions": [
-      {
-        "day_of_week": 1,
-        "start_time": "16:30",
-        "end_time": "18:30"
-      }
-    ],
-    "Info": null,
-    "Department": "مهندسی برق",
-    "DepartmentCode": 25,
-    "Grade": "bs",
-    "Year": 1404,
-    "Semester": 1
-  },
   "25770-2": {
     "Code": "25770",
     "Group": 2,
@@ -15388,6 +15296,30 @@
         "day_of_week": 2,
         "start_time": "17:00",
         "end_time": "19:00"
+      }
+    ],
+    "Info": null,
+    "Department": "مهندسی برق",
+    "DepartmentCode": 25,
+    "Grade": "bs",
+    "Year": 1404,
+    "Semester": 1
+  },
+  "25770-1": {
+    "Code": "25770",
+    "Group": 1,
+    "Name": "اخلاق مهندسی و محیط زیست",
+    "Lecturer": "فروهر فرزانه",
+    "Capacity": 30,
+    "Registered": 0,
+    "Units": 1,
+    "ExamDate": "1404/10/30",
+    "ExamTime": "09:00",
+    "Sessions": [
+      {
+        "day_of_week": 1,
+        "start_time": "16:30",
+        "end_time": "18:30"
       }
     ],
     "Info": null,
@@ -15455,6 +15387,30 @@
     "Year": 1404,
     "Semester": 1
   },
+  "25780-5": {
+    "Code": "25780",
+    "Group": 5,
+    "Name": "پروژه کارشناسی ۱",
+    "Lecturer": "بیژن وثوقی وحدت",
+    "Capacity": 22,
+    "Registered": 0,
+    "Units": 1,
+    "ExamDate": null,
+    "ExamTime": null,
+    "Sessions": [
+      {
+        "day_of_week": 3,
+        "start_time": "13:30",
+        "end_time": "15:00"
+      }
+    ],
+    "Info": null,
+    "Department": "مهندسی برق",
+    "DepartmentCode": 25,
+    "Grade": "bs",
+    "Year": 1404,
+    "Semester": 1
+  },
   "25780-2": {
     "Code": "25780",
     "Group": 2,
@@ -15479,11 +15435,11 @@
     "Year": 1404,
     "Semester": 1
   },
-  "25780-5": {
+  "25780-1": {
     "Code": "25780",
-    "Group": 5,
+    "Group": 1,
     "Name": "پروژه کارشناسی ۱",
-    "Lecturer": "بیژن وثوقی وحدت",
+    "Lecturer": "بیژن رشیدیان",
     "Capacity": 22,
     "Registered": 0,
     "Units": 1,
@@ -15491,7 +15447,7 @@
     "ExamTime": null,
     "Sessions": [
       {
-        "day_of_week": 3,
+        "day_of_week": 2,
         "start_time": "13:30",
         "end_time": "15:00"
       }
@@ -15518,30 +15474,6 @@
         "day_of_week": 1,
         "start_time": "15:00",
         "end_time": "16:30"
-      }
-    ],
-    "Info": null,
-    "Department": "مهندسی برق",
-    "DepartmentCode": 25,
-    "Grade": "bs",
-    "Year": 1404,
-    "Semester": 1
-  },
-  "25780-1": {
-    "Code": "25780",
-    "Group": 1,
-    "Name": "پروژه کارشناسی ۱",
-    "Lecturer": "بیژن رشیدیان",
-    "Capacity": 22,
-    "Registered": 0,
-    "Units": 1,
-    "ExamDate": null,
-    "ExamTime": null,
-    "Sessions": [
-      {
-        "day_of_week": 2,
-        "start_time": "13:30",
-        "end_time": "15:00"
       }
     ],
     "Info": null,
@@ -17310,35 +17242,6 @@
         "day_of_week": 2,
         "start_time": "07:30",
         "end_time": "09:00"
-      }
-    ],
-    "Info": null,
-    "Department": "مهندسی برق",
-    "DepartmentCode": 25,
-    "Grade": "bs",
-    "Year": 1404,
-    "Semester": 1
-  },
-  "25561-1": {
-    "Code": "25561",
-    "Group": 1,
-    "Name": "طراحی سیستمهای مجتمع خیلی فشرده دیجیتال",
-    "Lecturer": "مهدی شعبانی",
-    "Capacity": 0,
-    "Registered": 0,
-    "Units": 3,
-    "ExamDate": "1404/10/21",
-    "ExamTime": "09:00",
-    "Sessions": [
-      {
-        "day_of_week": 1,
-        "start_time": "10:30",
-        "end_time": "12:00"
-      },
-      {
-        "day_of_week": 3,
-        "start_time": "10:30",
-        "end_time": "12:00"
       }
     ],
     "Info": null,
@@ -20807,7 +20710,7 @@
     "Group": 1,
     "Name": "روش‌های شناسایی مواد ۱",
     "Lecturer": "سیروس عسگری",
-    "Capacity": 40,
+    "Capacity": 20,
     "Registered": 0,
     "Units": 3,
     "ExamDate": null,
@@ -20985,30 +20888,6 @@
     "Year": 1404,
     "Semester": 1
   },
-  "27027-4": {
-    "Code": "27027",
-    "Group": 4,
-    "Name": "آز متالورژی فیزیکی ۱",
-    "Lecturer": "مجید پور انوری",
-    "Capacity": 8,
-    "Registered": 0,
-    "Units": 1,
-    "ExamDate": null,
-    "ExamTime": null,
-    "Sessions": [
-      {
-        "day_of_week": 3,
-        "start_time": "16:30",
-        "end_time": "19:30"
-      }
-    ],
-    "Info": null,
-    "Department": "مهندسی و علم مواد",
-    "DepartmentCode": 27,
-    "Grade": "bs",
-    "Year": 1404,
-    "Semester": 1
-  },
   "27027-1": {
     "Code": "27027",
     "Group": 1,
@@ -21081,6 +20960,30 @@
     "Year": 1404,
     "Semester": 1
   },
+  "27027-4": {
+    "Code": "27027",
+    "Group": 4,
+    "Name": "آز متالورژی فیزیکی ۱",
+    "Lecturer": "مجید پور انوری",
+    "Capacity": 8,
+    "Registered": 0,
+    "Units": 1,
+    "ExamDate": null,
+    "ExamTime": null,
+    "Sessions": [
+      {
+        "day_of_week": 3,
+        "start_time": "16:30",
+        "end_time": "19:30"
+      }
+    ],
+    "Info": null,
+    "Department": "مهندسی و علم مواد",
+    "DepartmentCode": 27,
+    "Grade": "bs",
+    "Year": 1404,
+    "Semester": 1
+  },
   "27028-1": {
     "Code": "27028",
     "Group": 1,
@@ -21114,7 +21017,7 @@
     "Code": "27034",
     "Group": 1,
     "Name": "اصول مهندسی پلیمر",
-    "Lecturer": "باهره تکیه معروف",
+    "Lecturer": "غلامرضا پیر چراغی",
     "Capacity": 30,
     "Registered": 0,
     "Units": 3,
@@ -21132,24 +21035,6 @@
         "end_time": "12:00"
       }
     ],
-    "Info": null,
-    "Department": "مهندسی و علم مواد",
-    "DepartmentCode": 27,
-    "Grade": "bs",
-    "Year": 1404,
-    "Semester": 1
-  },
-  "27034-2": {
-    "Code": "27034",
-    "Group": 2,
-    "Name": "اصول مهندسی پلیمر",
-    "Lecturer": "غلامرضا پیر چراغی",
-    "Capacity": 0,
-    "Registered": 0,
-    "Units": 3,
-    "ExamDate": null,
-    "ExamTime": null,
-    "Sessions": [],
     "Info": null,
     "Department": "مهندسی و علم مواد",
     "DepartmentCode": 27,
@@ -21388,7 +21273,7 @@
     "Group": 2,
     "Name": "خواص الکترونی مواد",
     "Lecturer": "سیروس عسگری",
-    "Capacity": 25,
+    "Capacity": 20,
     "Registered": 0,
     "Units": 2,
     "ExamDate": null,
@@ -21648,7 +21533,7 @@
     "Group": 1,
     "Name": "روش‌های نوین ساخت",
     "Lecturer": "مجتبی موحدی،  پیر چراغی",
-    "Capacity": 40,
+    "Capacity": 30,
     "Registered": 0,
     "Units": 2,
     "ExamDate": null,
@@ -21785,14 +21670,14 @@
     "ExamTime": null,
     "Sessions": [
       {
-        "day_of_week": 1,
-        "start_time": "10:30",
-        "end_time": "12:00"
+        "day_of_week": 0,
+        "start_time": "13:30",
+        "end_time": "15:00"
       },
       {
-        "day_of_week": 3,
-        "start_time": "10:30",
-        "end_time": "12:00"
+        "day_of_week": 2,
+        "start_time": "13:30",
+        "end_time": "15:00"
       }
     ],
     "Info": null,
@@ -21926,7 +21811,7 @@
     "Group": 2,
     "Name": "طراحی قالب و آز",
     "Lecturer": "محسن کاظمی نژاد",
-    "Capacity": 20,
+    "Capacity": 12,
     "Registered": 0,
     "Units": 3,
     "ExamDate": null,
@@ -21955,7 +21840,7 @@
     "Group": 1,
     "Name": "طراحی قالب و آز",
     "Lecturer": "محسن کاظمی نژاد",
-    "Capacity": 20,
+    "Capacity": 12,
     "Registered": 0,
     "Units": 3,
     "ExamDate": null,
@@ -23082,35 +22967,6 @@
     "Year": 1404,
     "Semester": 1
   },
-  "28113-1": {
-    "Code": "28113",
-    "Group": 1,
-    "Name": "انتقال حرارت ۱",
-    "Lecturer": "محمدعلی بیجارچی",
-    "Capacity": 20,
-    "Registered": 0,
-    "Units": 3,
-    "ExamDate": "1404/10/23",
-    "ExamTime": "15:00",
-    "Sessions": [
-      {
-        "day_of_week": 1,
-        "start_time": "13:30",
-        "end_time": "15:00"
-      },
-      {
-        "day_of_week": 3,
-        "start_time": "13:30",
-        "end_time": "15:00"
-      }
-    ],
-    "Info": null,
-    "Department": "مهندسی مکانیک",
-    "DepartmentCode": 28,
-    "Grade": "bs",
-    "Year": 1404,
-    "Semester": 1
-  },
   "28113-2": {
     "Code": "28113",
     "Group": 2,
@@ -23131,6 +22987,35 @@
         "day_of_week": 2,
         "start_time": "09:00",
         "end_time": "10:30"
+      }
+    ],
+    "Info": null,
+    "Department": "مهندسی مکانیک",
+    "DepartmentCode": 28,
+    "Grade": "bs",
+    "Year": 1404,
+    "Semester": 1
+  },
+  "28113-1": {
+    "Code": "28113",
+    "Group": 1,
+    "Name": "انتقال حرارت ۱",
+    "Lecturer": "محمدعلی بیجارچی",
+    "Capacity": 20,
+    "Registered": 0,
+    "Units": 3,
+    "ExamDate": "1404/10/23",
+    "ExamTime": "15:00",
+    "Sessions": [
+      {
+        "day_of_week": 1,
+        "start_time": "13:30",
+        "end_time": "15:00"
+      },
+      {
+        "day_of_week": 3,
+        "start_time": "13:30",
+        "end_time": "15:00"
       }
     ],
     "Info": null,
@@ -23198,35 +23083,6 @@
     "Year": 1404,
     "Semester": 1
   },
-  "28162-1": {
-    "Code": "28162",
-    "Group": 1,
-    "Name": "ترمودینامیک ۲",
-    "Lecturer": "محمدحسن سعیدی",
-    "Capacity": 35,
-    "Registered": 0,
-    "Units": 3,
-    "ExamDate": "1404/10/24",
-    "ExamTime": "15:00",
-    "Sessions": [
-      {
-        "day_of_week": 1,
-        "start_time": "09:00",
-        "end_time": "10:30"
-      },
-      {
-        "day_of_week": 3,
-        "start_time": "09:00",
-        "end_time": "10:30"
-      }
-    ],
-    "Info": null,
-    "Department": "مهندسی مکانیک",
-    "DepartmentCode": 28,
-    "Grade": "bs",
-    "Year": 1404,
-    "Semester": 1
-  },
   "28162-2": {
     "Code": "28162",
     "Group": 2,
@@ -23247,6 +23103,35 @@
         "day_of_week": 2,
         "start_time": "10:30",
         "end_time": "12:00"
+      }
+    ],
+    "Info": null,
+    "Department": "مهندسی مکانیک",
+    "DepartmentCode": 28,
+    "Grade": "bs",
+    "Year": 1404,
+    "Semester": 1
+  },
+  "28162-1": {
+    "Code": "28162",
+    "Group": 1,
+    "Name": "ترمودینامیک ۲",
+    "Lecturer": "محمدحسن سعیدی",
+    "Capacity": 35,
+    "Registered": 0,
+    "Units": 3,
+    "ExamDate": "1404/10/24",
+    "ExamTime": "15:00",
+    "Sessions": [
+      {
+        "day_of_week": 1,
+        "start_time": "09:00",
+        "end_time": "10:30"
+      },
+      {
+        "day_of_week": 3,
+        "start_time": "09:00",
+        "end_time": "10:30"
       }
     ],
     "Info": null,
@@ -23546,35 +23431,6 @@
     "Year": 1404,
     "Semester": 1
   },
-  "28262-1": {
-    "Code": "28262",
-    "Group": 1,
-    "Name": "مقاومت مصالح ۱",
-    "Lecturer": "محسن اصغری",
-    "Capacity": 30,
-    "Registered": 0,
-    "Units": 3,
-    "ExamDate": "1404/10/22",
-    "ExamTime": "09:00",
-    "Sessions": [
-      {
-        "day_of_week": 0,
-        "start_time": "10:30",
-        "end_time": "12:00"
-      },
-      {
-        "day_of_week": 2,
-        "start_time": "10:30",
-        "end_time": "12:00"
-      }
-    ],
-    "Info": null,
-    "Department": "مهندسی مکانیک",
-    "DepartmentCode": 28,
-    "Grade": "bs",
-    "Year": 1404,
-    "Semester": 1
-  },
   "28262-3": {
     "Code": "28262",
     "Group": 3,
@@ -23624,6 +23480,35 @@
         "day_of_week": 3,
         "start_time": "09:00",
         "end_time": "10:30"
+      }
+    ],
+    "Info": null,
+    "Department": "مهندسی مکانیک",
+    "DepartmentCode": 28,
+    "Grade": "bs",
+    "Year": 1404,
+    "Semester": 1
+  },
+  "28262-1": {
+    "Code": "28262",
+    "Group": 1,
+    "Name": "مقاومت مصالح ۱",
+    "Lecturer": "محسن اصغری",
+    "Capacity": 30,
+    "Registered": 0,
+    "Units": 3,
+    "ExamDate": "1404/10/22",
+    "ExamTime": "09:00",
+    "Sessions": [
+      {
+        "day_of_week": 0,
+        "start_time": "10:30",
+        "end_time": "12:00"
+      },
+      {
+        "day_of_week": 2,
+        "start_time": "10:30",
+        "end_time": "12:00"
       }
     ],
     "Info": null,
@@ -23744,35 +23629,6 @@
     "Year": 1404,
     "Semester": 1
   },
-  "28461-1": {
-    "Code": "28461",
-    "Group": 1,
-    "Name": "مکانیک سیالات ۱",
-    "Lecturer": "مریم کامران",
-    "Capacity": 35,
-    "Registered": 0,
-    "Units": 3,
-    "ExamDate": "1404/11/01",
-    "ExamTime": "09:00",
-    "Sessions": [
-      {
-        "day_of_week": 1,
-        "start_time": "15:00",
-        "end_time": "16:30"
-      },
-      {
-        "day_of_week": 3,
-        "start_time": "15:00",
-        "end_time": "16:30"
-      }
-    ],
-    "Info": null,
-    "Department": "مهندسی مکانیک",
-    "DepartmentCode": 28,
-    "Grade": "bs",
-    "Year": 1404,
-    "Semester": 1
-  },
   "28461-2": {
     "Code": "28461",
     "Group": 2,
@@ -23802,11 +23658,40 @@
     "Year": 1404,
     "Semester": 1
   },
-  "28462-1": {
-    "Code": "28462",
+  "28461-1": {
+    "Code": "28461",
     "Group": 1,
+    "Name": "مکانیک سیالات ۱",
+    "Lecturer": "مریم کامران",
+    "Capacity": 35,
+    "Registered": 0,
+    "Units": 3,
+    "ExamDate": "1404/11/01",
+    "ExamTime": "09:00",
+    "Sessions": [
+      {
+        "day_of_week": 1,
+        "start_time": "15:00",
+        "end_time": "16:30"
+      },
+      {
+        "day_of_week": 3,
+        "start_time": "15:00",
+        "end_time": "16:30"
+      }
+    ],
+    "Info": null,
+    "Department": "مهندسی مکانیک",
+    "DepartmentCode": 28,
+    "Grade": "bs",
+    "Year": 1404,
+    "Semester": 1
+  },
+  "28462-3": {
+    "Code": "28462",
+    "Group": 3,
     "Name": "مکانیک سیالات ۲",
-    "Lecturer": "محمد صادق کریمی",
+    "Lecturer": "مجتبی تقی پور",
     "Capacity": 35,
     "Registered": 0,
     "Units": 3,
@@ -23831,11 +23716,11 @@
     "Year": 1404,
     "Semester": 1
   },
-  "28462-3": {
+  "28462-1": {
     "Code": "28462",
-    "Group": 3,
+    "Group": 1,
     "Name": "مکانیک سیالات ۲",
-    "Lecturer": "مجتبی تقی پور",
+    "Lecturer": "محمد صادق کریمی",
     "Capacity": 35,
     "Registered": 0,
     "Units": 3,
@@ -23947,64 +23832,6 @@
     "Year": 1404,
     "Semester": 1
   },
-  "28567-2": {
-    "Code": "28567",
-    "Group": 2,
-    "Name": "دینامیک مکانیک",
-    "Lecturer": "علیرضا طاهری",
-    "Capacity": 30,
-    "Registered": 0,
-    "Units": 4,
-    "ExamDate": "1404/10/20",
-    "ExamTime": "09:00",
-    "Sessions": [
-      {
-        "day_of_week": 1,
-        "start_time": "10:30",
-        "end_time": "12:30"
-      },
-      {
-        "day_of_week": 3,
-        "start_time": "10:30",
-        "end_time": "12:30"
-      }
-    ],
-    "Info": null,
-    "Department": "مهندسی مکانیک",
-    "DepartmentCode": 28,
-    "Grade": "bs",
-    "Year": 1404,
-    "Semester": 1
-  },
-  "28567-1": {
-    "Code": "28567",
-    "Group": 1,
-    "Name": "دینامیک مکانیک",
-    "Lecturer": "سمیه محمدی",
-    "Capacity": 30,
-    "Registered": 0,
-    "Units": 4,
-    "ExamDate": "1404/10/20",
-    "ExamTime": "09:00",
-    "Sessions": [
-      {
-        "day_of_week": 0,
-        "start_time": "13:00",
-        "end_time": "15:00"
-      },
-      {
-        "day_of_week": 2,
-        "start_time": "13:00",
-        "end_time": "15:00"
-      }
-    ],
-    "Info": null,
-    "Department": "مهندسی مکانیک",
-    "DepartmentCode": 28,
-    "Grade": "bs",
-    "Year": 1404,
-    "Semester": 1
-  },
   "28567-3": {
     "Code": "28567",
     "Group": 3,
@@ -24063,26 +23890,55 @@
     "Year": 1404,
     "Semester": 1
   },
-  "28568-3": {
-    "Code": "28568",
-    "Group": 3,
-    "Name": "ارتعاشات",
-    "Lecturer": "محمدتقی احمدیان",
+  "28567-1": {
+    "Code": "28567",
+    "Group": 1,
+    "Name": "دینامیک مکانیک",
+    "Lecturer": "سمیه محمدی",
     "Capacity": 30,
     "Registered": 0,
-    "Units": 3,
-    "ExamDate": "1404/10/28",
+    "Units": 4,
+    "ExamDate": "1404/10/20",
+    "ExamTime": "09:00",
+    "Sessions": [
+      {
+        "day_of_week": 0,
+        "start_time": "13:00",
+        "end_time": "15:00"
+      },
+      {
+        "day_of_week": 2,
+        "start_time": "13:00",
+        "end_time": "15:00"
+      }
+    ],
+    "Info": null,
+    "Department": "مهندسی مکانیک",
+    "DepartmentCode": 28,
+    "Grade": "bs",
+    "Year": 1404,
+    "Semester": 1
+  },
+  "28567-2": {
+    "Code": "28567",
+    "Group": 2,
+    "Name": "دینامیک مکانیک",
+    "Lecturer": "علیرضا طاهری",
+    "Capacity": 30,
+    "Registered": 0,
+    "Units": 4,
+    "ExamDate": "1404/10/20",
     "ExamTime": "09:00",
     "Sessions": [
       {
         "day_of_week": 1,
-        "start_time": "13:30",
-        "end_time": "15:00"
+        "start_time": "10:30",
+        "end_time": "12:30"
       },
       {
         "day_of_week": 3,
-        "start_time": "13:30",
-        "end_time": "15:00"
+        "start_time": "10:30",
+        "end_time": "12:30"
       }
     ],
     "Info": null,
@@ -24150,6 +24006,35 @@
     "Year": 1404,
     "Semester": 1
   },
+  "28568-3": {
+    "Code": "28568",
+    "Group": 3,
+    "Name": "ارتعاشات",
+    "Lecturer": "محمدتقی احمدیان",
+    "Capacity": 30,
+    "Registered": 0,
+    "Units": 3,
+    "ExamDate": "1404/10/28",
+    "ExamTime": "09:00",
+    "Sessions": [
+      {
+        "day_of_week": 1,
+        "start_time": "13:30",
+        "end_time": "15:00"
+      },
+      {
+        "day_of_week": 3,
+        "start_time": "13:30",
+        "end_time": "15:00"
+      }
+    ],
+    "Info": null,
+    "Department": "مهندسی مکانیک",
+    "DepartmentCode": 28,
+    "Grade": "bs",
+    "Year": 1404,
+    "Semester": 1
+  },
   "28569-1": {
     "Code": "28569",
     "Group": 1,
@@ -24198,30 +24083,6 @@
     "Year": 1404,
     "Semester": 1
   },
-  "28615-4": {
-    "Code": "28615",
-    "Group": 4,
-    "Name": "آز اندازه‌گیری و سیستم‌های کنترل",
-    "Lecturer": "علیرضا طاهری",
-    "Capacity": 12,
-    "Registered": 0,
-    "Units": 1,
-    "ExamDate": null,
-    "ExamTime": null,
-    "Sessions": [
-      {
-        "day_of_week": 3,
-        "start_time": "10:30",
-        "end_time": "12:30"
-      }
-    ],
-    "Info": "دانشجویان مکانیک همزمان با درس اندازه گیری اخذ کنند-امکان حذف w ندارد",
-    "Department": "مهندسی مکانیک",
-    "DepartmentCode": 28,
-    "Grade": "bs",
-    "Year": 1404,
-    "Semester": 1
-  },
   "28615-1": {
     "Code": "28615",
     "Group": 1,
@@ -24261,6 +24122,30 @@
         "day_of_week": 2,
         "start_time": "15:00",
         "end_time": "17:00"
+      }
+    ],
+    "Info": "دانشجویان مکانیک همزمان با درس اندازه گیری اخذ کنند-امکان حذف w ندارد",
+    "Department": "مهندسی مکانیک",
+    "DepartmentCode": 28,
+    "Grade": "bs",
+    "Year": 1404,
+    "Semester": 1
+  },
+  "28615-4": {
+    "Code": "28615",
+    "Group": 4,
+    "Name": "آز اندازه‌گیری و سیستم‌های کنترل",
+    "Lecturer": "علیرضا طاهری",
+    "Capacity": 12,
+    "Registered": 0,
+    "Units": 1,
+    "ExamDate": null,
+    "ExamTime": null,
+    "Sessions": [
+      {
+        "day_of_week": 3,
+        "start_time": "10:30",
+        "end_time": "12:30"
       }
     ],
     "Info": "دانشجویان مکانیک همزمان با درس اندازه گیری اخذ کنند-امکان حذف w ندارد",
@@ -24458,30 +24343,6 @@
     "Year": 1404,
     "Semester": 1
   },
-  "28701-2": {
-    "Code": "28701",
-    "Group": 2,
-    "Name": "آز مقاومت مصالح",
-    "Lecturer": "محسن اصغری",
-    "Capacity": 25,
-    "Registered": 0,
-    "Units": 1,
-    "ExamDate": null,
-    "ExamTime": null,
-    "Sessions": [
-      {
-        "day_of_week": 1,
-        "start_time": "15:00",
-        "end_time": "17:00"
-      }
-    ],
-    "Info": "همزمان با مقاومت مصالح2 اخذ گردد- امکان حذف w ندارد",
-    "Department": "مهندسی مکانیک",
-    "DepartmentCode": 28,
-    "Grade": "bs",
-    "Year": 1404,
-    "Semester": 1
-  },
   "28701-1": {
     "Code": "28701",
     "Group": 1,
@@ -24506,24 +24367,24 @@
     "Year": 1404,
     "Semester": 1
   },
-  "28702-4": {
-    "Code": "28702",
-    "Group": 4,
-    "Name": "آز ترمودینامیک",
-    "Lecturer": "محمدحسن سعیدی",
-    "Capacity": 16,
+  "28701-2": {
+    "Code": "28701",
+    "Group": 2,
+    "Name": "آز مقاومت مصالح",
+    "Lecturer": "محسن اصغری",
+    "Capacity": 25,
     "Registered": 0,
     "Units": 1,
     "ExamDate": null,
     "ExamTime": null,
     "Sessions": [
       {
-        "day_of_week": 3,
-        "start_time": "13:00",
-        "end_time": "15:00"
+        "day_of_week": 1,
+        "start_time": "15:00",
+        "end_time": "17:00"
       }
     ],
-    "Info": "همزمان با ترمودینامیک2 اخذ شود. امکان حذف w ندارد",
+    "Info": "همزمان با مقاومت مصالح2 اخذ گردد- امکان حذف w ندارد",
     "Department": "مهندسی مکانیک",
     "DepartmentCode": 28,
     "Grade": "bs",
@@ -24534,7 +24395,7 @@
     "Code": "28702",
     "Group": 3,
     "Name": "آز ترمودینامیک",
-    "Lecturer": "محمدحسن سعیدی",
+    "Lecturer": "محمدحسن سعیدی،  حسینیان فرد",
     "Capacity": 16,
     "Registered": 0,
     "Units": 1,
@@ -24558,7 +24419,7 @@
     "Code": "28702",
     "Group": 1,
     "Name": "آز ترمودینامیک",
-    "Lecturer": "محمدحسن سعیدی",
+    "Lecturer": "محمدحسن سعیدی،  حسینیان فرد",
     "Capacity": 16,
     "Registered": 0,
     "Units": 1,
@@ -24578,11 +24439,35 @@
     "Year": 1404,
     "Semester": 1
   },
+  "28702-4": {
+    "Code": "28702",
+    "Group": 4,
+    "Name": "آز ترمودینامیک",
+    "Lecturer": "محمدحسن سعیدی،  حسینیان فرد",
+    "Capacity": 16,
+    "Registered": 0,
+    "Units": 1,
+    "ExamDate": null,
+    "ExamTime": null,
+    "Sessions": [
+      {
+        "day_of_week": 3,
+        "start_time": "13:00",
+        "end_time": "15:00"
+      }
+    ],
+    "Info": "همزمان با ترمودینامیک2 اخذ شود. امکان حذف w ندارد",
+    "Department": "مهندسی مکانیک",
+    "DepartmentCode": 28,
+    "Grade": "bs",
+    "Year": 1404,
+    "Semester": 1
+  },
   "28702-2": {
     "Code": "28702",
     "Group": 2,
     "Name": "آز ترمودینامیک",
-    "Lecturer": "محمدحسن سعیدی",
+    "Lecturer": "محمدحسن سعیدی،  حسینیان فرد",
     "Capacity": 16,
     "Registered": 0,
     "Units": 1,
@@ -24602,35 +24487,11 @@
     "Year": 1404,
     "Semester": 1
   },
-  "28703-1": {
-    "Code": "28703",
-    "Group": 1,
-    "Name": "آز مکانیک سیالات",
-    "Lecturer": "بیژن فرهانیه",
-    "Capacity": 16,
-    "Registered": 0,
-    "Units": 1,
-    "ExamDate": null,
-    "ExamTime": null,
-    "Sessions": [
-      {
-        "day_of_week": 2,
-        "start_time": "13:00",
-        "end_time": "15:00"
-      }
-    ],
-    "Info": "همزمان با سیالات2 اخذ شود. امکان حذف w ندارد",
-    "Department": "مهندسی مکانیک",
-    "DepartmentCode": 28,
-    "Grade": "bs",
-    "Year": 1404,
-    "Semester": 1
-  },
   "28703-4": {
     "Code": "28703",
     "Group": 4,
     "Name": "آز مکانیک سیالات",
-    "Lecturer": "",
+    "Lecturer": "بیژن فرهانیه،  مساوات",
     "Capacity": 16,
     "Registered": 0,
     "Units": 1,
@@ -24650,11 +24511,59 @@
     "Year": 1404,
     "Semester": 1
   },
+  "28703-2": {
+    "Code": "28703",
+    "Group": 2,
+    "Name": "آز مکانیک سیالات",
+    "Lecturer": "بیژن فرهانیه،  مساوات",
+    "Capacity": 16,
+    "Registered": 0,
+    "Units": 1,
+    "ExamDate": null,
+    "ExamTime": null,
+    "Sessions": [
+      {
+        "day_of_week": 2,
+        "start_time": "15:00",
+        "end_time": "17:00"
+      }
+    ],
+    "Info": "همزمان با سیالات2 اخذ شود. امکان حذف w ندارد",
+    "Department": "مهندسی مکانیک",
+    "DepartmentCode": 28,
+    "Grade": "bs",
+    "Year": 1404,
+    "Semester": 1
+  },
+  "28703-1": {
+    "Code": "28703",
+    "Group": 1,
+    "Name": "آز مکانیک سیالات",
+    "Lecturer": "بیژن فرهانیه،  مساوات",
+    "Capacity": 16,
+    "Registered": 0,
+    "Units": 1,
+    "ExamDate": null,
+    "ExamTime": null,
+    "Sessions": [
+      {
+        "day_of_week": 2,
+        "start_time": "13:00",
+        "end_time": "15:00"
+      }
+    ],
+    "Info": "همزمان با سیالات2 اخذ شود. امکان حذف w ندارد",
+    "Department": "مهندسی مکانیک",
+    "DepartmentCode": 28,
+    "Grade": "bs",
+    "Year": 1404,
+    "Semester": 1
+  },
   "28703-3": {
     "Code": "28703",
     "Group": 3,
     "Name": "آز مکانیک سیالات",
-    "Lecturer": "بیژن فرهانیه",
+    "Lecturer": "بیژن فرهانیه،  مساوات",
     "Capacity": 16,
     "Registered": 0,
     "Units": 1,
@@ -24674,36 +24583,12 @@
     "Year": 1404,
     "Semester": 1
   },
-  "28703-2": {
-    "Code": "28703",
-    "Group": 2,
-    "Name": "آز مکانیک سیالات",
-    "Lecturer": "بیژن فرهانیه",
-    "Capacity": 16,
-    "Registered": 0,
-    "Units": 1,
-    "ExamDate": null,
-    "ExamTime": null,
-    "Sessions": [
-      {
-        "day_of_week": 2,
-        "start_time": "15:00",
-        "end_time": "17:00"
-      }
-    ],
-    "Info": "همزمان با سیالات2 اخذ شود. امکان حذف w ندارد",
-    "Department": "مهندسی مکانیک",
-    "DepartmentCode": 28,
-    "Grade": "bs",
-    "Year": 1404,
-    "Semester": 1
-  },
   "28704-1": {
     "Code": "28704",
     "Group": 1,
     "Name": "آز انتقال حرارت",
-    "Lecturer": "محمدحسن سعیدی",
-    "Capacity": 20,
+    "Lecturer": "محمدحسن سعیدی،  حسینیان فرد",
+    "Capacity": 18,
     "Registered": 0,
     "Units": 1,
     "ExamDate": null,
@@ -24722,9 +24607,9 @@
     "Year": 1404,
     "Semester": 1
   },
-  "28708-4": {
+  "28708-6": {
     "Code": "28708",
-    "Group": 4,
+    "Group": 6,
     "Name": "آز دینامیک و ارتعاشات",
     "Lecturer": "حامد مرادی",
     "Capacity": 9,
@@ -24735,6 +24620,78 @@
     "Sessions": [
       {
         "day_of_week": 2,
+        "start_time": "15:00",
+        "end_time": "17:00"
+      }
+    ],
+    "Info": "امکان حذف w ندارد-امتحان پایان ترم در ساعت 12 انجام می شود",
+    "Department": "مهندسی مکانیک",
+    "DepartmentCode": 28,
+    "Grade": "bs",
+    "Year": 1404,
+    "Semester": 1
+  },
+  "28708-3": {
+    "Code": "28708",
+    "Group": 3,
+    "Name": "آز دینامیک و ارتعاشات",
+    "Lecturer": "حسن صیادی",
+    "Capacity": 9,
+    "Registered": 0,
+    "Units": 1,
+    "ExamDate": "1404/10/10",
+    "ExamTime": "09:00",
+    "Sessions": [
+      {
+        "day_of_week": 2,
+        "start_time": "13:00",
+        "end_time": "15:00"
+      }
+    ],
+    "Info": "امکان حذف w ندارد-امتحان پایان ترم در ساعت 12 انجام می شود",
+    "Department": "مهندسی مکانیک",
+    "DepartmentCode": 28,
+    "Grade": "bs",
+    "Year": 1404,
+    "Semester": 1
+  },
+  "28708-2": {
+    "Code": "28708",
+    "Group": 2,
+    "Name": "آز دینامیک و ارتعاشات",
+    "Lecturer": "حامد مرادی",
+    "Capacity": 9,
+    "Registered": 0,
+    "Units": 1,
+    "ExamDate": "1404/10/10",
+    "ExamTime": "09:00",
+    "Sessions": [
+      {
+        "day_of_week": 0,
+        "start_time": "13:00",
+        "end_time": "15:00"
+      }
+    ],
+    "Info": "امکان حذف w ندارد-امتحان پایان ترم در ساعت 12 انجام می شود",
+    "Department": "مهندسی مکانیک",
+    "DepartmentCode": 28,
+    "Grade": "bs",
+    "Year": 1404,
+    "Semester": 1
+  },
+  "28708-1": {
+    "Code": "28708",
+    "Group": 1,
+    "Name": "آز دینامیک و ارتعاشات",
+    "Lecturer": "حسن صیادی",
+    "Capacity": 9,
+    "Registered": 0,
+    "Units": 1,
+    "ExamDate": "1404/10/10",
+    "ExamTime": "09:00",
+    "Sessions": [
+      {
+        "day_of_week": 0,
         "start_time": "13:00",
         "end_time": "15:00"
       }
@@ -24770,57 +24727,9 @@
     "Year": 1404,
     "Semester": 1
   },
-  "28708-1": {
+  "28708-4": {
     "Code": "28708",
-    "Group": 1,
-    "Name": "آز دینامیک و ارتعاشات",
-    "Lecturer": "حسن صیادی",
-    "Capacity": 9,
-    "Registered": 0,
-    "Units": 1,
-    "ExamDate": "1404/10/10",
-    "ExamTime": "09:00",
-    "Sessions": [
-      {
-        "day_of_week": 0,
-        "start_time": "13:00",
-        "end_time": "15:00"
-      }
-    ],
-    "Info": "امکان حذف w ندارد-امتحان پایان ترم در ساعت 12 انجام می شود",
-    "Department": "مهندسی مکانیک",
-    "DepartmentCode": 28,
-    "Grade": "bs",
-    "Year": 1404,
-    "Semester": 1
-  },
-  "28708-3": {
-    "Code": "28708",
-    "Group": 3,
-    "Name": "آز دینامیک و ارتعاشات",
-    "Lecturer": "حسن صیادی",
-    "Capacity": 9,
-    "Registered": 0,
-    "Units": 1,
-    "ExamDate": "1404/10/10",
-    "ExamTime": "09:00",
-    "Sessions": [
-      {
-        "day_of_week": 2,
-        "start_time": "13:00",
-        "end_time": "15:00"
-      }
-    ],
-    "Info": "امکان حذف w ندارد-امتحان پایان ترم در ساعت 12 انجام می شود",
-    "Department": "مهندسی مکانیک",
-    "DepartmentCode": 28,
-    "Grade": "bs",
-    "Year": 1404,
-    "Semester": 1
-  },
-  "28708-6": {
-    "Code": "28708",
-    "Group": 6,
+    "Group": 4,
     "Name": "آز دینامیک و ارتعاشات",
     "Lecturer": "حامد مرادی",
     "Capacity": 9,
@@ -24831,30 +24740,6 @@
     "Sessions": [
       {
         "day_of_week": 2,
-        "start_time": "15:00",
-        "end_time": "17:00"
-      }
-    ],
-    "Info": "امکان حذف w ندارد-امتحان پایان ترم در ساعت 12 انجام می شود",
-    "Department": "مهندسی مکانیک",
-    "DepartmentCode": 28,
-    "Grade": "bs",
-    "Year": 1404,
-    "Semester": 1
-  },
-  "28708-2": {
-    "Code": "28708",
-    "Group": 2,
-    "Name": "آز دینامیک و ارتعاشات",
-    "Lecturer": "حامد مرادی",
-    "Capacity": 9,
-    "Registered": 0,
-    "Units": 1,
-    "ExamDate": "1404/10/10",
-    "ExamTime": "09:00",
-    "Sessions": [
-      {
-        "day_of_week": 0,
         "start_time": "13:00",
         "end_time": "15:00"
       }
@@ -24866,12 +24751,12 @@
     "Year": 1404,
     "Semester": 1
   },
-  "28709-2": {
+  "28709-1": {
     "Code": "28709",
-    "Group": 2,
+    "Group": 1,
     "Name": "آز کنترل اتوماتیک",
     "Lecturer": "آریا الستی",
-    "Capacity": 12,
+    "Capacity": 8,
     "Registered": 0,
     "Units": 1,
     "ExamDate": null,
@@ -24884,12 +24769,12 @@
     "Year": 1404,
     "Semester": 1
   },
-  "28709-1": {
+  "28709-2": {
     "Code": "28709",
-    "Group": 1,
+    "Group": 2,
     "Name": "آز کنترل اتوماتیک",
     "Lecturer": "آریا الستی",
-    "Capacity": 12,
+    "Capacity": 8,
     "Registered": 0,
     "Units": 1,
     "ExamDate": null,
@@ -24984,11 +24869,11 @@
     "Year": 1404,
     "Semester": 1
   },
-  "28861-3": {
+  "28861-1": {
     "Code": "28861",
-    "Group": 3,
+    "Group": 1,
     "Name": "علم مواد",
-    "Lecturer": "محمدرضا موحدی",
+    "Lecturer": "فرزام فرهمند",
     "Capacity": 30,
     "Registered": 0,
     "Units": 3,
@@ -24996,14 +24881,14 @@
     "ExamTime": "15:00",
     "Sessions": [
       {
-        "day_of_week": 1,
-        "start_time": "10:30",
-        "end_time": "12:00"
+        "day_of_week": 0,
+        "start_time": "09:00",
+        "end_time": "10:30"
       },
       {
-        "day_of_week": 3,
-        "start_time": "10:30",
-        "end_time": "12:00"
+        "day_of_week": 2,
+        "start_time": "09:00",
+        "end_time": "10:30"
       }
     ],
     "Info": null,
@@ -25042,11 +24927,11 @@
     "Year": 1404,
     "Semester": 1
   },
-  "28861-1": {
+  "28861-3": {
     "Code": "28861",
-    "Group": 1,
+    "Group": 3,
     "Name": "علم مواد",
-    "Lecturer": "فرزام فرهمند",
+    "Lecturer": "محمدرضا موحدی",
     "Capacity": 30,
     "Registered": 0,
     "Units": 3,
@@ -25054,14 +24939,14 @@
     "ExamTime": "15:00",
     "Sessions": [
       {
-        "day_of_week": 0,
-        "start_time": "09:00",
-        "end_time": "10:30"
+        "day_of_week": 1,
+        "start_time": "10:30",
+        "end_time": "12:00"
       },
       {
-        "day_of_week": 2,
-        "start_time": "09:00",
-        "end_time": "10:30"
+        "day_of_week": 3,
+        "start_time": "10:30",
+        "end_time": "12:00"
       }
     ],
     "Info": null,
@@ -25100,6 +24985,24 @@
     "Year": 1404,
     "Semester": 1
   },
+  "28870-1": {
+    "Code": "28870",
+    "Group": 1,
+    "Name": "کارورزی",
+    "Lecturer": "کیوان محمدی",
+    "Capacity": 0,
+    "Registered": 0,
+    "Units": 0,
+    "ExamDate": null,
+    "ExamTime": null,
+    "Sessions": [],
+    "Info": null,
+    "Department": "مهندسی مکانیک",
+    "DepartmentCode": 28,
+    "Grade": "bs",
+    "Year": 1404,
+    "Semester": 1
+  },
   "28871-1": {
     "Code": "28871",
     "Group": 1,
@@ -25118,6 +25021,42 @@
       }
     ],
     "Info": null,
+    "Department": "مهندسی مکانیک",
+    "DepartmentCode": 28,
+    "Grade": "bs",
+    "Year": 1404,
+    "Semester": 1
+  },
+  "28900-2": {
+    "Code": "28900",
+    "Group": 2,
+    "Name": "پروژه تخصصی",
+    "Lecturer": "",
+    "Capacity": 0,
+    "Registered": 0,
+    "Units": 0,
+    "ExamDate": null,
+    "ExamTime": null,
+    "Sessions": [],
+    "Info": "مخصوص ثبت نام صفر واحدی(تمدید)-دانشجویان مهندسی مکانیک",
+    "Department": "مهندسی مکانیک",
+    "DepartmentCode": 28,
+    "Grade": "bs",
+    "Year": 1404,
+    "Semester": 1
+  },
+  "28900-1": {
+    "Code": "28900",
+    "Group": 1,
+    "Name": "پروژه تخصصی",
+    "Lecturer": "",
+    "Capacity": 0,
+    "Registered": 0,
+    "Units": 0,
+    "ExamDate": null,
+    "ExamTime": null,
+    "Sessions": [],
+    "Info": "مخصوص دانشجویان مهندسی مکانیک-فقط ثبت نام سه واحدی. لازم است مراحل تعریف پروژه قبلا انجام شده باشد",
     "Department": "مهندسی مکانیک",
     "DepartmentCode": 28,
     "Grade": "bs",
@@ -25195,6 +25134,60 @@
       }
     ],
     "Info": null,
+    "Department": "مهندسی مکانیک",
+    "DepartmentCode": 28,
+    "Grade": "bs",
+    "Year": 1404,
+    "Semester": 1
+  },
+  "28940-1": {
+    "Code": "28940",
+    "Group": 1,
+    "Name": "کارآموزی ۱",
+    "Lecturer": "کیوان محمدی",
+    "Capacity": 0,
+    "Registered": 0,
+    "Units": 0,
+    "ExamDate": null,
+    "ExamTime": null,
+    "Sessions": [],
+    "Info": "پس از تکمیل فرایند تعیین محل کاراموزی",
+    "Department": "مهندسی مکانیک",
+    "DepartmentCode": 28,
+    "Grade": "bs",
+    "Year": 1404,
+    "Semester": 1
+  },
+  "28950-2": {
+    "Code": "28950",
+    "Group": 2,
+    "Name": "پروژه",
+    "Lecturer": "",
+    "Capacity": 0,
+    "Registered": 0,
+    "Units": 0,
+    "ExamDate": null,
+    "ExamTime": null,
+    "Sessions": [],
+    "Info": "مخصوص ثبت نام صفر واحدی(تمدید)-دانشجویان مهندسی دریا",
+    "Department": "مهندسی مکانیک",
+    "DepartmentCode": 28,
+    "Grade": "bs",
+    "Year": 1404,
+    "Semester": 1
+  },
+  "28950-1": {
+    "Code": "28950",
+    "Group": 1,
+    "Name": "پروژه",
+    "Lecturer": "",
+    "Capacity": 0,
+    "Registered": 0,
+    "Units": 0,
+    "ExamDate": null,
+    "ExamTime": null,
+    "Sessions": [],
+    "Info": "مخصوص دانشجویان مهندسی دریا-فقط ثبت نام سه واحدی. لازم است مراحل تعریف پروژه قبلا انجام شده باشد",
     "Department": "مهندسی مکانیک",
     "DepartmentCode": 28,
     "Grade": "bs",
@@ -30672,8 +30665,8 @@
     "Capacity": 0,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": "1404/10/24",
-    "ExamTime": "09:00",
+    "ExamDate": "1404/10/18",
+    "ExamTime": "15:00",
     "Sessions": [
       {
         "day_of_week": 0,
@@ -30812,8 +30805,8 @@
     "Capacity": 0,
     "Registered": 0,
     "Units": 1,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/18",
+    "ExamTime": "09:00",
     "Sessions": [
       {
         "day_of_week": 4,
@@ -30836,8 +30829,8 @@
     "Capacity": 0,
     "Registered": 0,
     "Units": 1,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/18",
+    "ExamTime": "09:00",
     "Sessions": [
       {
         "day_of_week": 4,
@@ -31832,9 +31825,20 @@
     "Capacity": 0,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": null,
-    "ExamTime": null,
-    "Sessions": [],
+    "ExamDate": "1404/10/29",
+    "ExamTime": "09:00",
+    "Sessions": [
+      {
+        "day_of_week": 0,
+        "start_time": "13:30",
+        "end_time": "15:00"
+      },
+      {
+        "day_of_week": 2,
+        "start_time": "13:30",
+        "end_time": "15:00"
+      }
+    ],
     "Info": null,
     "Department": "مهندسی کامپیوتر",
     "DepartmentCode": 40,
@@ -31966,8 +31970,8 @@
     "Capacity": 0,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": "1404/10/20",
-    "ExamTime": "15:00",
+    "ExamDate": "1404/10/18",
+    "ExamTime": "09:00",
     "Sessions": [
       {
         "day_of_week": 0,
@@ -32252,13 +32256,24 @@
     "Code": "40817",
     "Group": 1,
     "Name": "امنیت شبکه پیشرفته",
-    "Lecturer": "",
+    "Lecturer": "سولماز سلیمی",
     "Capacity": 0,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": null,
-    "ExamTime": null,
-    "Sessions": [],
+    "ExamDate": "1404/10/21",
+    "ExamTime": "15:00",
+    "Sessions": [
+      {
+        "day_of_week": 1,
+        "start_time": "10:30",
+        "end_time": "12:00"
+      },
+      {
+        "day_of_week": 3,
+        "start_time": "10:30",
+        "end_time": "12:00"
+      }
+    ],
     "Info": null,
     "Department": "مهندسی کامپیوتر",
     "DepartmentCode": 40,
@@ -32306,35 +32321,6 @@
     "ExamDate": null,
     "ExamTime": null,
     "Sessions": [],
-    "Info": null,
-    "Department": "مهندسی کامپیوتر",
-    "DepartmentCode": 40,
-    "Grade": "bs",
-    "Year": 1404,
-    "Semester": 1
-  },
-  "40824-1": {
-    "Code": "40824",
-    "Group": 1,
-    "Name": "ارزیابی کارایی کامپیوترها",
-    "Lecturer": "مهدی دولتی",
-    "Capacity": 0,
-    "Registered": 0,
-    "Units": 3,
-    "ExamDate": "1404/11/01",
-    "ExamTime": "09:00",
-    "Sessions": [
-      {
-        "day_of_week": 0,
-        "start_time": "15:00",
-        "end_time": "16:30"
-      },
-      {
-        "day_of_week": 2,
-        "start_time": "15:00",
-        "end_time": "16:30"
-      }
-    ],
     "Info": null,
     "Department": "مهندسی کامپیوتر",
     "DepartmentCode": 40,
@@ -32487,24 +32473,6 @@
     "Year": 1404,
     "Semester": 1
   },
-  "40900-5": {
-    "Code": "40900",
-    "Group": 5,
-    "Name": "سمینار کارشناسی ارشد",
-    "Lecturer": "رسول جلیلی",
-    "Capacity": 0,
-    "Registered": 0,
-    "Units": 2,
-    "ExamDate": null,
-    "ExamTime": null,
-    "Sessions": [],
-    "Info": "گروه شبکه",
-    "Department": "مهندسی کامپیوتر",
-    "DepartmentCode": 40,
-    "Grade": "bs",
-    "Year": 1404,
-    "Semester": 1
-  },
   "40900-2": {
     "Code": "40900",
     "Group": 2,
@@ -32571,6 +32539,24 @@
     "ExamTime": null,
     "Sessions": [],
     "Info": "گروه معماری کامپیوتر",
+    "Department": "مهندسی کامپیوتر",
+    "DepartmentCode": 40,
+    "Grade": "bs",
+    "Year": 1404,
+    "Semester": 1
+  },
+  "40900-5": {
+    "Code": "40900",
+    "Group": 5,
+    "Name": "سمینار کارشناسی ارشد",
+    "Lecturer": "رسول جلیلی",
+    "Capacity": 0,
+    "Registered": 0,
+    "Units": 2,
+    "ExamDate": null,
+    "ExamTime": null,
+    "Sessions": [],
+    "Info": "گروه شبکه",
     "Department": "مهندسی کامپیوتر",
     "DepartmentCode": 40,
     "Grade": "bs",
@@ -32729,7 +32715,7 @@
     "ExamTime": null,
     "Sessions": [
       {
-        "day_of_week": 1,
+        "day_of_week": 3,
         "start_time": "09:00",
         "end_time": "12:00"
       }
@@ -32889,13 +32875,19 @@
     "Code": "42383",
     "Group": 1,
     "Name": "مبانی منطق",
-    "Lecturer": "",
+    "Lecturer": "ابراهیم آزادگان",
     "Capacity": 25,
     "Registered": 0,
     "Units": 3,
     "ExamDate": null,
     "ExamTime": null,
-    "Sessions": [],
+    "Sessions": [
+      {
+        "day_of_week": 1,
+        "start_time": "09:00",
+        "end_time": "12:00"
+      }
+    ],
     "Info": "«از دروس الزامی دورۀ ارشد»، ویژه دانشجویان ارشد ورودی 1404 گروه",
     "Department": "گروه فلسفه علم",
     "DepartmentCode": 42,
@@ -33328,8 +33320,8 @@
     "Capacity": 1,
     "Registered": 0,
     "Units": 4,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/24",
+    "ExamTime": "09:00",
     "Sessions": [
       {
         "day_of_week": 0,
@@ -33357,8 +33349,8 @@
     "Capacity": 1,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/30",
+    "ExamTime": "09:00",
     "Sessions": [
       {
         "day_of_week": 0,
@@ -33701,35 +33693,6 @@
     "Year": 1404,
     "Semester": 1
   },
-  "44138-2": {
-    "Code": "44138",
-    "Group": 2,
-    "Name": "تحلیل های کمی در مدیریت",
-    "Lecturer": "مانا مس کار،  ثقفیان",
-    "Capacity": 25,
-    "Registered": 0,
-    "Units": 3,
-    "ExamDate": "1404/10/23",
-    "ExamTime": "09:00",
-    "Sessions": [
-      {
-        "day_of_week": 0,
-        "start_time": "08:00",
-        "end_time": "09:30"
-      },
-      {
-        "day_of_week": 2,
-        "start_time": "08:00",
-        "end_time": "09:30"
-      }
-    ],
-    "Info": "برای دانشجویان ارشد مدیریت کسب و کار الزامی  عمومی  ورودی 1403گرایش های فناوری، مالی و رفتار سازمانی  و   ماقبل",
-    "Department": "مدیریت و اقتصاد",
-    "DepartmentCode": 44,
-    "Grade": "bs",
-    "Year": 1404,
-    "Semester": 1
-  },
   "44138-1": {
     "Code": "44138",
     "Group": 1,
@@ -33753,6 +33716,35 @@
       }
     ],
     "Info": "برای دانشجویان ارشد مدیریت کسب و کار الزامی  عمومی  ورودی 1403 گرایش های فناوری   و رفتار  سازمانی  و ماقبل",
+    "Department": "مدیریت و اقتصاد",
+    "DepartmentCode": 44,
+    "Grade": "bs",
+    "Year": 1404,
+    "Semester": 1
+  },
+  "44138-2": {
+    "Code": "44138",
+    "Group": 2,
+    "Name": "تحلیل های کمی در مدیریت",
+    "Lecturer": "مانا مس کار،  ثقفیان",
+    "Capacity": 25,
+    "Registered": 0,
+    "Units": 3,
+    "ExamDate": "1404/10/23",
+    "ExamTime": "09:00",
+    "Sessions": [
+      {
+        "day_of_week": 0,
+        "start_time": "08:00",
+        "end_time": "09:30"
+      },
+      {
+        "day_of_week": 2,
+        "start_time": "08:00",
+        "end_time": "09:30"
+      }
+    ],
+    "Info": "برای دانشجویان ارشد مدیریت کسب و کار الزامی  عمومی  ورودی 1403گرایش های فناوری، مالی و رفتار سازمانی  و   ماقبل",
     "Department": "مدیریت و اقتصاد",
     "DepartmentCode": 44,
     "Grade": "bs",
@@ -33889,35 +33881,6 @@
     "Year": 1404,
     "Semester": 1
   },
-  "44161-1": {
-    "Code": "44161",
-    "Group": 1,
-    "Name": "برنامه‌ریزی استراتژیک",
-    "Lecturer": "آرش خلیلی نصر",
-    "Capacity": 25,
-    "Registered": 0,
-    "Units": 3,
-    "ExamDate": "1404/10/17",
-    "ExamTime": "09:00",
-    "Sessions": [
-      {
-        "day_of_week": 0,
-        "start_time": "16:30",
-        "end_time": "18:00"
-      },
-      {
-        "day_of_week": 2,
-        "start_time": "16:30",
-        "end_time": "18:00"
-      }
-    ],
-    "Info": "برای دانشجویان ارشد مدیریت کسب و کار الزامی  عمومی  ترم   دوم برای ورودی های 1403 گرایش های فناوری، مالی و رفتار سازمانی و  ماقبل",
-    "Department": "مدیریت و اقتصاد",
-    "DepartmentCode": 44,
-    "Grade": "bs",
-    "Year": 1404,
-    "Semester": 1
-  },
   "44161-2": {
     "Code": "44161",
     "Group": 2,
@@ -33941,6 +33904,35 @@
       }
     ],
     "Info": "برای دانشجویان ارشد مدیریت کسب و کار الزامی  عمومی  برای ورودی های 1403 گرایش های فناوری، مالی و رفتار سازمانی و  ماقبل",
+    "Department": "مدیریت و اقتصاد",
+    "DepartmentCode": 44,
+    "Grade": "bs",
+    "Year": 1404,
+    "Semester": 1
+  },
+  "44161-1": {
+    "Code": "44161",
+    "Group": 1,
+    "Name": "برنامه‌ریزی استراتژیک",
+    "Lecturer": "آرش خلیلی نصر",
+    "Capacity": 25,
+    "Registered": 0,
+    "Units": 3,
+    "ExamDate": "1404/10/17",
+    "ExamTime": "09:00",
+    "Sessions": [
+      {
+        "day_of_week": 0,
+        "start_time": "16:30",
+        "end_time": "18:00"
+      },
+      {
+        "day_of_week": 2,
+        "start_time": "16:30",
+        "end_time": "18:00"
+      }
+    ],
+    "Info": "برای دانشجویان ارشد مدیریت کسب و کار الزامی  عمومی  ترم   دوم برای ورودی های 1403 گرایش های فناوری، مالی و رفتار سازمانی و  ماقبل",
     "Department": "مدیریت و اقتصاد",
     "DepartmentCode": 44,
     "Grade": "bs",
@@ -34192,35 +34184,6 @@
     "Year": 1404,
     "Semester": 1
   },
-  "44224-1": {
-    "Code": "44224",
-    "Group": 1,
-    "Name": "مدیریت بازاریابی",
-    "Lecturer": "منوچهر نجمی",
-    "Capacity": -1,
-    "Registered": 0,
-    "Units": 3,
-    "ExamDate": "1404/10/30",
-    "ExamTime": "09:00",
-    "Sessions": [
-      {
-        "day_of_week": 0,
-        "start_time": "16:30",
-        "end_time": "18:00"
-      },
-      {
-        "day_of_week": 2,
-        "start_time": "16:30",
-        "end_time": "18:00"
-      }
-    ],
-    "Info": "برای دانشجویان ارشد مدیریت کسب و کار الزامی  عمومی ورودی 1404  گرایش های بازاریابی، مالی، فناوری",
-    "Department": "مدیریت و اقتصاد",
-    "DepartmentCode": 44,
-    "Grade": "bs",
-    "Year": 1404,
-    "Semester": 1
-  },
   "44224-3": {
     "Code": "44224",
     "Group": 3,
@@ -34244,6 +34207,35 @@
       }
     ],
     "Info": "برای دانشجویان ارشد مدیریت کسب و کار الزامی  عمومی  ورودی 1404  گرایش های بازاریابی، مالی، فناوری",
+    "Department": "مدیریت و اقتصاد",
+    "DepartmentCode": 44,
+    "Grade": "bs",
+    "Year": 1404,
+    "Semester": 1
+  },
+  "44224-1": {
+    "Code": "44224",
+    "Group": 1,
+    "Name": "مدیریت بازاریابی",
+    "Lecturer": "منوچهر نجمی",
+    "Capacity": -1,
+    "Registered": 0,
+    "Units": 3,
+    "ExamDate": "1404/10/30",
+    "ExamTime": "09:00",
+    "Sessions": [
+      {
+        "day_of_week": 0,
+        "start_time": "16:30",
+        "end_time": "18:00"
+      },
+      {
+        "day_of_week": 2,
+        "start_time": "16:30",
+        "end_time": "18:00"
+      }
+    ],
+    "Info": "برای دانشجویان ارشد مدیریت کسب و کار الزامی  عمومی ورودی 1404  گرایش های بازاریابی، مالی، فناوری",
     "Department": "مدیریت و اقتصاد",
     "DepartmentCode": 44,
     "Grade": "bs",
@@ -34337,30 +34329,6 @@
     "Year": 1404,
     "Semester": 1
   },
-  "44281-3": {
-    "Code": "44281",
-    "Group": 3,
-    "Name": "مدیریت عملیات",
-    "Lecturer": "علی فتحعلی زاده",
-    "Capacity": 25,
-    "Registered": 0,
-    "Units": 3,
-    "ExamDate": "1404/10/28",
-    "ExamTime": "15:00",
-    "Sessions": [
-      {
-        "day_of_week": 1,
-        "start_time": "15:00",
-        "end_time": "18:00"
-      }
-    ],
-    "Info": "برای دانشجویان ارشد مدیریت کسب و کار الزامی  عمومی  ورودی های ،1403 گرایش های مالی و رفتار سازمانی و  ماقبل",
-    "Department": "مدیریت و اقتصاد",
-    "DepartmentCode": 44,
-    "Grade": "bs",
-    "Year": 1404,
-    "Semester": 1
-  },
   "44281-2": {
     "Code": "44281",
     "Group": 2,
@@ -34384,6 +34352,30 @@
       }
     ],
     "Info": "برای دانشجویان ارشد مدیریت کسب و کار الزامی  \r\n دانشجویان ورودی 1404  گرایش های رفتار سازمانی ،  فناوری و  استراتژی",
+    "Department": "مدیریت و اقتصاد",
+    "DepartmentCode": 44,
+    "Grade": "bs",
+    "Year": 1404,
+    "Semester": 1
+  },
+  "44281-3": {
+    "Code": "44281",
+    "Group": 3,
+    "Name": "مدیریت عملیات",
+    "Lecturer": "علی فتحعلی زاده",
+    "Capacity": 25,
+    "Registered": 0,
+    "Units": 3,
+    "ExamDate": "1404/10/28",
+    "ExamTime": "15:00",
+    "Sessions": [
+      {
+        "day_of_week": 1,
+        "start_time": "15:00",
+        "end_time": "18:00"
+      }
+    ],
+    "Info": "برای دانشجویان ارشد مدیریت کسب و کار الزامی  عمومی  ورودی های ،1403 گرایش های مالی و رفتار سازمانی و  ماقبل",
     "Department": "مدیریت و اقتصاد",
     "DepartmentCode": 44,
     "Grade": "bs",
@@ -34419,35 +34411,6 @@
     "Year": 1404,
     "Semester": 1
   },
-  "44311-1": {
-    "Code": "44311",
-    "Group": 1,
-    "Name": "مدیریت مالی بنگاه‌ها",
-    "Lecturer": "علی شریف خانی",
-    "Capacity": 25,
-    "Registered": 0,
-    "Units": 3,
-    "ExamDate": "1404/10/20",
-    "ExamTime": "09:00",
-    "Sessions": [
-      {
-        "day_of_week": 1,
-        "start_time": "11:00",
-        "end_time": "12:30"
-      },
-      {
-        "day_of_week": 3,
-        "start_time": "11:00",
-        "end_time": "12:30"
-      }
-    ],
-    "Info": "برای دانشجویان ارشد مدیریت کسب و کار الزامی  عمومی  ترم   ورودی های 1403 گرایش های فناوری، مالی و رفتار سازمانی و ورودی های ماقبل",
-    "Department": "مدیریت و اقتصاد",
-    "DepartmentCode": 44,
-    "Grade": "bs",
-    "Year": 1404,
-    "Semester": 1
-  },
   "44311-2": {
     "Code": "44311",
     "Group": 2,
@@ -34471,6 +34434,35 @@
       }
     ],
     "Info": "برای دانشجویان ارشد مدیریت کسب و کار الزامی  عمومی ترم دوم  و  ورودی های 1403 گرایش های فناوری، مالی و رفتار سازمانی و ورودی های ماقبل",
+    "Department": "مدیریت و اقتصاد",
+    "DepartmentCode": 44,
+    "Grade": "bs",
+    "Year": 1404,
+    "Semester": 1
+  },
+  "44311-1": {
+    "Code": "44311",
+    "Group": 1,
+    "Name": "مدیریت مالی بنگاه‌ها",
+    "Lecturer": "علی شریف خانی",
+    "Capacity": 25,
+    "Registered": 0,
+    "Units": 3,
+    "ExamDate": "1404/10/20",
+    "ExamTime": "09:00",
+    "Sessions": [
+      {
+        "day_of_week": 1,
+        "start_time": "11:00",
+        "end_time": "12:30"
+      },
+      {
+        "day_of_week": 3,
+        "start_time": "11:00",
+        "end_time": "12:30"
+      }
+    ],
+    "Info": "برای دانشجویان ارشد مدیریت کسب و کار الزامی  عمومی  ترم   ورودی های 1403 گرایش های فناوری، مالی و رفتار سازمانی و ورودی های ماقبل",
     "Department": "مدیریت و اقتصاد",
     "DepartmentCode": 44,
     "Grade": "bs",
@@ -34567,8 +34559,8 @@
     "Capacity": 20,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/11/02",
+    "ExamTime": "09:00",
     "Sessions": [
       {
         "day_of_week": 1,
@@ -34596,8 +34588,8 @@
     "Capacity": 20,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/20",
+    "ExamTime": "15:00",
     "Sessions": [
       {
         "day_of_week": 0,
@@ -34625,8 +34617,8 @@
     "Capacity": 20,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/22",
+    "ExamTime": "09:00",
     "Sessions": [
       {
         "day_of_week": 0,
@@ -34654,8 +34646,8 @@
     "Capacity": 20,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/28",
+    "ExamTime": "09:00",
     "Sessions": [
       {
         "day_of_week": 1,
@@ -34683,8 +34675,8 @@
     "Capacity": 20,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/18",
+    "ExamTime": "09:00",
     "Sessions": [
       {
         "day_of_week": 1,
@@ -34922,35 +34914,6 @@
         "day_of_week": 2,
         "start_time": "08:00",
         "end_time": "10:00"
-      }
-    ],
-    "Info": "اجباری دانشجویان کارشناسی ارشد علوم اقتصادی ورودی  1404",
-    "Department": "مدیریت و اقتصاد",
-    "DepartmentCode": 44,
-    "Grade": "bs",
-    "Year": 1404,
-    "Semester": 1
-  },
-  "44716-2": {
-    "Code": "44716",
-    "Group": 2,
-    "Name": "اقتصاد سنجی ۱",
-    "Lecturer": "محمد وصال",
-    "Capacity": 20,
-    "Registered": 0,
-    "Units": 4,
-    "ExamDate": "1404/11/02",
-    "ExamTime": "09:00",
-    "Sessions": [
-      {
-        "day_of_week": 0,
-        "start_time": "13:30",
-        "end_time": "15:30"
-      },
-      {
-        "day_of_week": 2,
-        "start_time": "13:30",
-        "end_time": "15:30"
       }
     ],
     "Info": "اجباری دانشجویان کارشناسی ارشد علوم اقتصادی ورودی  1404",
@@ -35885,8 +35848,8 @@
     "Capacity": 0,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/29",
+    "ExamTime": "09:00",
     "Sessions": [],
     "Info": null,
     "Department": "مدیریت و اقتصاد",
@@ -40506,13 +40469,19 @@
     "Code": "50618",
     "Group": 1,
     "Name": "تاریخ فرهنگ و تمدن اسلامی",
-    "Lecturer": "",
-    "Capacity": 35,
+    "Lecturer": "سارا خداداد",
+    "Capacity": 15,
     "Registered": 0,
     "Units": 2,
     "ExamDate": "1404/10/23",
     "ExamTime": "12:30",
-    "Sessions": [],
+    "Sessions": [
+      {
+        "day_of_week": 1,
+        "start_time": "12:00",
+        "end_time": "13:30"
+      }
+    ],
     "Info": "توجه:درس هر هفته بصورت حضوری برگزار خواهد شد.",
     "Department": "دروس پایه و عمومی (پردیس کیش)",
     "DepartmentCode": 50,
@@ -40524,13 +40493,19 @@
     "Code": "50624",
     "Group": 1,
     "Name": "انقلاب اسلامی و ریشه‌های آن",
-    "Lecturer": "",
+    "Lecturer": "ـ شیروانی",
     "Capacity": 35,
     "Registered": 0,
     "Units": 2,
     "ExamDate": "1404/10/17",
     "ExamTime": "12:30",
-    "Sessions": [],
+    "Sessions": [
+      {
+        "day_of_week": 1,
+        "start_time": "17:00",
+        "end_time": "19:00"
+      }
+    ],
     "Info": "توجه: درس هر هفته بصورت حضوری برگزار خواهد شد.",
     "Department": "دروس پایه و عمومی (پردیس کیش)",
     "DepartmentCode": 50,
@@ -42210,8 +42185,8 @@
     "Capacity": 35,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": "1404/10/18",
-    "ExamTime": "09:00",
+    "ExamDate": "1404/10/16",
+    "ExamTime": "12:30",
     "Sessions": [
       {
         "day_of_week": 4,

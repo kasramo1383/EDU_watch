@@ -484,8 +484,8 @@ def save_courses_to_file():
 
         logger.info("Courses data saved to %s (previous file moved to '... - old.json')", OUTPUT_FILE)
 
-        send_updates.main()
-        logger.info("Invoked send_updates.main() to check for differences and call Telegram API")
+        logger.info("Invoked send_updates.main()")
+        send_updates.main(logger)
 
         return True
     except Exception as e:
