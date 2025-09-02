@@ -4,6 +4,7 @@ from datetime import datetime
 import requests
 from decouple import config
 import time
+from fields import parse_name, parse_value
 
 # Load Telegram bot token
 TELEGRAM_TOKEN = config("TELEGRAM_TOKEN")
@@ -87,10 +88,10 @@ def format_messages(added, removed, updated):
                 dept_lines.append(line)
                 if "changes" in info:
                     for field, vals in info["changes"].items():
-                        old_val = fields.parse_value(field, vals['old'])
-                        new_val = fields.parse_value(field, vals['new'])
+                        old_val = parse_value(field, vals['old'])
+                        new_val = parse_value(field, vals['new'])
                         dept_lines.append(
-                            f"    {fields.parse_name(field)}: {old_val} ◀️ {new_val}"
+                            f"    {parse_name(field)}: {old_val} ◀️ {new_val}"
                         )
                 dept_lines.append('')
 
@@ -101,60 +102,6 @@ def format_messages(added, removed, updated):
         messages.append("\n".join(dept_lines))
 
     return messages
-
-class fields:
-    NAMES = {
-        'Name': '🪧 نام درس',
-        'Lecturer': '👨‍🏫 استاد',
-        'Capacity': '📊 ظرفیت',
-        'Registered': '📈 ثبت نامی',
-        'ExamDate': '📅 تاریخ آزمون',
-        'ExamTime': '🕒 ساعت آزمون',
-        'Sessions': '🗓️ برنامه هفتگی',
-        'Info': '💬 توضیحات',
-        # Unlikely to change:
-        'Code': 'کد درس',
-        'Group': 'گروه درس',
-        'Units': 'واحد',
-        'Year': 'سال',
-        'Semester': 'ترم',
-        'Units': 'واحد',
-        'Department': 'دانشکده',
-        'DepartmentCode': 'کد دانشکده',
-        'Grade': 'مقطع',
-    }
-
-    def parse_name(field: str) -> str:
-        return fields.NAMES.get(field, field)
-    
-    def parse_value(field: str, value) -> str:
-        PARSERS = {
-            'Sessions': fields._parse_sessions,
-        }
-        def none(value):
-            if value is None or value is '':
-                return 'تعریف نشده'
-            return value
-        return PARSERS.get(field, none)(value)
-    
-    def _parse_sessions(sessions: list) -> str:
-        WEEKDAYS = ['شنبه', 'یکشنبه', 'دوشنبه', 'سه‌شنبه', 'چهارشنبه', 'پنجشنبه', 'جمعه']
-        if not sessions:
-            return 'تعریف نشده'
-        first_st = sessions[0].get('start_time')
-        first_et = sessions[0].get('end_time')
-        if all(s.get('start_time') == first_st and s.get('end_time') == first_et
-               for s in sessions):
-            days = [WEEKDAYS[s.get('day_of_week')] for s in sessions]
-            return ' و '.join(days) + f" از {first_st} تا {first_et}"
-        else:
-            parsed = []
-            for session in sessions:
-                day = WEEKDAYS[session.get('day_of_week')]
-                st = session.get('start_time'); et = session.get('end_time')
-                parsed.append(day + f" از {st} تا {et}")
-            return '، '.join(parsed)
-
 
 # ----- Telegram sending -----
 MAX_LENGTH = 4000  # safe margin below 4096
