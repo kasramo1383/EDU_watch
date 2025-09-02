@@ -2293,12 +2293,12 @@
     "Code": "20668",
     "Group": 1,
     "Name": "آلودگی مواد زائد جامد",
-    "Lecturer": "محمدمسعود آقامحمدحسین تجریشی",
+    "Lecturer": "",
     "Capacity": 35,
     "Registered": 0,
     "Units": 3,
     "ExamDate": "1404/10/30",
-    "ExamTime": "08:00",
+    "ExamTime": "09:00",
     "Sessions": [
       {
         "day_of_week": 1,
@@ -20419,7 +20419,7 @@
     "Code": "27012",
     "Group": 1,
     "Name": "اصول مهندسی و علم مواد",
-    "Lecturer": "سیدحمیدرضا مداح حسینی",
+    "Lecturer": "سیدحمیدرضا مداح حسینی،  سیم چی",
     "Capacity": 40,
     "Registered": 0,
     "Units": 3,
@@ -20680,8 +20680,8 @@
     "Code": "27022",
     "Group": 1,
     "Name": "پدیده‌های انتقال",
-    "Lecturer": "",
-    "Capacity": 0,
+    "Lecturer": "سیدخطیب الاسلام صدرنژاد",
+    "Capacity": 40,
     "Registered": 0,
     "Units": 3,
     "ExamDate": null,
@@ -20689,13 +20689,13 @@
     "Sessions": [
       {
         "day_of_week": 0,
-        "start_time": "13:30",
-        "end_time": "15:00"
+        "start_time": "07:30",
+        "end_time": "09:00"
       },
       {
         "day_of_week": 2,
-        "start_time": "13:30",
-        "end_time": "15:00"
+        "start_time": "07:30",
+        "end_time": "09:00"
       }
     ],
     "Info": null,
@@ -22066,7 +22066,7 @@
     "ExamTime": null,
     "Sessions": [
       {
-        "day_of_week": 1,
+        "day_of_week": 4,
         "start_time": "08:00",
         "end_time": "10:00"
       }
@@ -22226,8 +22226,8 @@
       },
       {
         "day_of_week": 3,
-        "start_time": "12:00",
-        "end_time": "15:00"
+        "start_time": "15:00",
+        "end_time": "18:00"
       }
     ],
     "Info": null,
@@ -22639,7 +22639,7 @@
     "ExamTime": null,
     "Sessions": [
       {
-        "day_of_week": 1,
+        "day_of_week": 3,
         "start_time": "13:00",
         "end_time": "15:00"
       }
