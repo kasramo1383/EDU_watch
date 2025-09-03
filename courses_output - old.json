@@ -2488,7 +2488,7 @@
     "Code": "20928",
     "Group": 1,
     "Name": "سمینار حمل‌ونقل",
-    "Lecturer": "امیرحسن کرمانشاه",
+    "Lecturer": "نادر طباطبائی",
     "Capacity": 35,
     "Registered": 0,
     "Units": 1,
@@ -2496,7 +2496,7 @@
     "ExamTime": null,
     "Sessions": [
       {
-        "day_of_week": 2,
+        "day_of_week": 1,
         "start_time": "13:30",
         "end_time": "15:00"
       }
@@ -2512,7 +2512,7 @@
     "Code": "20929",
     "Group": 1,
     "Name": "سمینار راه و ترابری",
-    "Lecturer": "امیرحسن کرمانشاه",
+    "Lecturer": "نادر طباطبائی",
     "Capacity": 35,
     "Registered": 0,
     "Units": 1,
@@ -2520,7 +2520,7 @@
     "ExamTime": null,
     "Sessions": [
       {
-        "day_of_week": 2,
+        "day_of_week": 1,
         "start_time": "13:30",
         "end_time": "15:00"
       }
@@ -3371,18 +3371,18 @@
     "Capacity": 40,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": "1404/10/25",
-    "ExamTime": "15:00",
+    "ExamDate": "1404/10/28",
+    "ExamTime": "09:00",
     "Sessions": [
       {
         "day_of_week": 1,
-        "start_time": "13:30",
-        "end_time": "15:00"
+        "start_time": "15:00",
+        "end_time": "16:30"
       },
       {
         "day_of_week": 3,
-        "start_time": "13:30",
-        "end_time": "15:00"
+        "start_time": "15:00",
+        "end_time": "16:30"
       }
     ],
     "Info": null,
@@ -3718,10 +3718,10 @@
     "Year": 1404,
     "Semester": 1
   },
-  "21233-1": {
-    "Code": "21233",
+  "21240-1": {
+    "Code": "21240",
     "Group": 1,
-    "Name": "مدیریت مالی",
+    "Name": "مدیریت مالی پیشرفته",
     "Lecturer": "سید مصطفی مصطفوی",
     "Capacity": 20,
     "Registered": 0,
@@ -3799,35 +3799,6 @@
       }
     ],
     "Info": null,
-    "Department": "مهندسی صنایع",
-    "DepartmentCode": 21,
-    "Grade": "bs",
-    "Year": 1404,
-    "Semester": 1
-  },
-  "21680-1": {
-    "Code": "21680",
-    "Group": 1,
-    "Name": "مباحث ویژه در مهندسی صنایع",
-    "Lecturer": "مریم اسمعیلی",
-    "Capacity": 20,
-    "Registered": 0,
-    "Units": 3,
-    "ExamDate": "1404/10/21",
-    "ExamTime": "09:00",
-    "Sessions": [
-      {
-        "day_of_week": 3,
-        "start_time": "09:00",
-        "end_time": "10:30"
-      },
-      {
-        "day_of_week": 3,
-        "start_time": "10:30",
-        "end_time": "12:00"
-      }
-    ],
-    "Info": "نام این درس نظریه بازی ها می باشد و همچنین در سبد یک (1) می باشد.",
     "Department": "مهندسی صنایع",
     "DepartmentCode": 21,
     "Grade": "bs",
@@ -3912,6 +3883,35 @@
         "day_of_week": 2,
         "start_time": "15:00",
         "end_time": "16:30"
+      }
+    ],
+    "Info": null,
+    "Department": "مهندسی صنایع",
+    "DepartmentCode": 21,
+    "Grade": "bs",
+    "Year": 1404,
+    "Semester": 1
+  },
+  "21750-1": {
+    "Code": "21750",
+    "Group": 1,
+    "Name": "نظریه بازی‌ها",
+    "Lecturer": "مریم اسمعیلی",
+    "Capacity": 20,
+    "Registered": 0,
+    "Units": 3,
+    "ExamDate": "1404/10/21",
+    "ExamTime": "09:00",
+    "Sessions": [
+      {
+        "day_of_week": 3,
+        "start_time": "09:00",
+        "end_time": "10:30"
+      },
+      {
+        "day_of_week": 3,
+        "start_time": "10:30",
+        "end_time": "12:00"
       }
     ],
     "Info": null,
@@ -6888,7 +6888,7 @@
     "Capacity": 30,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": "1404/10/28",
+    "ExamDate": "1404/10/29",
     "ExamTime": "15:00",
     "Sessions": [
       {
@@ -6917,7 +6917,7 @@
     "Capacity": 30,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": "1404/10/28",
+    "ExamDate": "1404/10/29",
     "ExamTime": "15:00",
     "Sessions": [
       {
@@ -7221,7 +7221,7 @@
     "Registered": 0,
     "Units": 3,
     "ExamDate": "1404/10/22",
-    "ExamTime": "15:00",
+    "ExamTime": "09:00",
     "Sessions": [
       {
         "day_of_week": 0,
@@ -7250,7 +7250,7 @@
     "Registered": 0,
     "Units": 3,
     "ExamDate": "1404/10/22",
-    "ExamTime": "15:00",
+    "ExamTime": "09:00",
     "Sessions": [
       {
         "day_of_week": 0,
@@ -14366,7 +14366,7 @@
     "Code": "25742",
     "Group": 1,
     "Name": "سیگنال‌ها و سیستم‌ها",
-    "Lecturer": "محمدامیر دستغیب",
+    "Lecturer": "سیدمحمدامیر دستغیب",
     "Capacity": 38,
     "Registered": 0,
     "Units": 3,
@@ -17924,6 +17924,30 @@
     "Year": 1404,
     "Semester": 1
   },
+  "26027-4": {
+    "Code": "26027",
+    "Group": 4,
+    "Name": "آشنایی با مهندسی شیمی",
+    "Lecturer": "شهره مشایخان",
+    "Capacity": -1,
+    "Registered": 0,
+    "Units": 0,
+    "ExamDate": null,
+    "ExamTime": null,
+    "Sessions": [
+      {
+        "day_of_week": 3,
+        "start_time": "13:30",
+        "end_time": "15:00"
+      }
+    ],
+    "Info": null,
+    "Department": "مهندسی شیمی و نفت",
+    "DepartmentCode": 26,
+    "Grade": "bs",
+    "Year": 1404,
+    "Semester": 1
+  },
   "26027-2": {
     "Code": "26027",
     "Group": 2,
@@ -17963,30 +17987,6 @@
         "day_of_week": 1,
         "start_time": "15:00",
         "end_time": "16:30"
-      }
-    ],
-    "Info": null,
-    "Department": "مهندسی شیمی و نفت",
-    "DepartmentCode": 26,
-    "Grade": "bs",
-    "Year": 1404,
-    "Semester": 1
-  },
-  "26027-4": {
-    "Code": "26027",
-    "Group": 4,
-    "Name": "آشنایی با مهندسی شیمی",
-    "Lecturer": "شهره مشایخان",
-    "Capacity": -1,
-    "Registered": 0,
-    "Units": 0,
-    "ExamDate": null,
-    "ExamTime": null,
-    "Sessions": [
-      {
-        "day_of_week": 3,
-        "start_time": "13:30",
-        "end_time": "15:00"
       }
     ],
     "Info": null,
@@ -18076,8 +18076,8 @@
     "Capacity": 40,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/20",
+    "ExamTime": "09:00",
     "Sessions": [
       {
         "day_of_week": 2,
@@ -18100,8 +18100,8 @@
     "Capacity": 40,
     "Registered": 0,
     "Units": 2,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/24",
+    "ExamTime": "15:00",
     "Sessions": [
       {
         "day_of_week": 1,
@@ -18124,8 +18124,8 @@
     "Capacity": 20,
     "Registered": 0,
     "Units": 2,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/29",
+    "ExamTime": "15:00",
     "Sessions": [
       {
         "day_of_week": 0,
@@ -18283,8 +18283,8 @@
     "Capacity": 40,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/22",
+    "ExamTime": "09:00",
     "Sessions": [
       {
         "day_of_week": 1,
@@ -18312,8 +18312,8 @@
     "Capacity": 40,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/28",
+    "ExamTime": "15:00",
     "Sessions": [
       {
         "day_of_week": 0,
@@ -18341,8 +18341,8 @@
     "Capacity": 40,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/29",
+    "ExamTime": "15:00",
     "Sessions": [
       {
         "day_of_week": 1,
@@ -18370,8 +18370,8 @@
     "Capacity": 30,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/24",
+    "ExamTime": "15:00",
     "Sessions": [
       {
         "day_of_week": 0,
@@ -18447,8 +18447,8 @@
     "Capacity": 40,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/22",
+    "ExamTime": "09:00",
     "Sessions": [
       {
         "day_of_week": 1,
@@ -18476,8 +18476,8 @@
     "Capacity": 30,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/22",
+    "ExamTime": "15:00",
     "Sessions": [
       {
         "day_of_week": 0,
@@ -18505,8 +18505,8 @@
     "Capacity": 0,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/11/01",
+    "ExamTime": "09:00",
     "Sessions": [
       {
         "day_of_week": 0,
@@ -18587,8 +18587,8 @@
     "Capacity": 20,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/21",
+    "ExamTime": "09:00",
     "Sessions": [
       {
         "day_of_week": 1,
@@ -18656,30 +18656,6 @@
     "Year": 1404,
     "Semester": 1
   },
-  "26204-2": {
-    "Code": "26204",
-    "Group": 2,
-    "Name": "آز انتقال حرارت",
-    "Lecturer": "طیبه حمزه لویان",
-    "Capacity": 0,
-    "Registered": 0,
-    "Units": 1,
-    "ExamDate": null,
-    "ExamTime": null,
-    "Sessions": [
-      {
-        "day_of_week": 4,
-        "start_time": "10:00",
-        "end_time": "12:00"
-      }
-    ],
-    "Info": null,
-    "Department": "مهندسی شیمی و نفت",
-    "DepartmentCode": 26,
-    "Grade": "bs",
-    "Year": 1404,
-    "Semester": 1
-  },
   "26204-1": {
     "Code": "26204",
     "Group": 1,
@@ -18695,6 +18671,30 @@
         "day_of_week": 4,
         "start_time": "08:00",
         "end_time": "10:00"
+      }
+    ],
+    "Info": null,
+    "Department": "مهندسی شیمی و نفت",
+    "DepartmentCode": 26,
+    "Grade": "bs",
+    "Year": 1404,
+    "Semester": 1
+  },
+  "26204-2": {
+    "Code": "26204",
+    "Group": 2,
+    "Name": "آز انتقال حرارت",
+    "Lecturer": "طیبه حمزه لویان",
+    "Capacity": 0,
+    "Registered": 0,
+    "Units": 1,
+    "ExamDate": null,
+    "ExamTime": null,
+    "Sessions": [
+      {
+        "day_of_week": 4,
+        "start_time": "10:00",
+        "end_time": "12:00"
       }
     ],
     "Info": null,
@@ -18793,12 +18793,12 @@
     "ExamTime": "09:00",
     "Sessions": [
       {
-        "day_of_week": 1,
+        "day_of_week": 0,
         "start_time": "09:00",
         "end_time": "10:30"
       },
       {
-        "day_of_week": 3,
+        "day_of_week": 2,
         "start_time": "09:00",
         "end_time": "10:30"
       }
@@ -18934,8 +18934,8 @@
     "Capacity": 30,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/23",
+    "ExamTime": "15:00",
     "Sessions": [
       {
         "day_of_week": 0,
@@ -19111,8 +19111,8 @@
     "Capacity": 20,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/11/01",
+    "ExamTime": "15:00",
     "Sessions": [
       {
         "day_of_week": 1,
@@ -19182,8 +19182,8 @@
     "Capacity": 20,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": "1404/10/22",
-    "ExamTime": "09:00",
+    "ExamDate": "1404/10/30",
+    "ExamTime": "15:00",
     "Sessions": [
       {
         "day_of_week": 4,
@@ -19191,7 +19191,7 @@
         "end_time": "18:00"
       }
     ],
-    "Info": "اختیاری\"الف\"م شیمیحداکثر ظرفیت برای  ورودی های 1401 مقطع  کارشناسی دانشکده  مهندسی شیمی و نفت 7  می باشد.حداکثر ظرفیت برای  ورودی های 1400 مقطع  کارشناسی دانشکده  مهندسی شیمی و نفت 6  می باشد.حداکثر ظرفیت برای  ورودی های 1402 مقطع  کارشناسی دانشکده  مهندسی شیمی و نفت 7  می باشد.",
+    "Info": "اختیاری\"الف\"م شیمیحداکثر ظرفیت برای  ورودی های 1400 مقطع  کارشناسی دانشکده  مهندسی شیمی و نفت 6  می باشد.حداکثر ظرفیت برای  ورودی های 1402 مقطع  کارشناسی دانشکده  مهندسی شیمی و نفت 7  می باشد.حداکثر ظرفیت برای  ورودی های 1401 مقطع  کارشناسی دانشکده  مهندسی شیمی و نفت 7  می باشد.",
     "Department": "مهندسی شیمی و نفت",
     "DepartmentCode": 26,
     "Grade": "bs",
@@ -19227,6 +19227,24 @@
     "Year": 1404,
     "Semester": 1
   },
+  "26667-1": {
+    "Code": "26667",
+    "Group": 1,
+    "Name": "خوردگی در صنایع پتروشیمی",
+    "Lecturer": "محمدرضا واعظی جزه",
+    "Capacity": 20,
+    "Registered": 0,
+    "Units": 3,
+    "ExamDate": null,
+    "ExamTime": null,
+    "Sessions": [],
+    "Info": "اختیاری الف م.شیمی -اختیاری الف م.نفت ورودی 1401 و ماقبل\r\nاختیاری گزینشی  م.نفت ورودی 1402",
+    "Department": "مهندسی شیمی و نفت",
+    "DepartmentCode": 26,
+    "Grade": "bs",
+    "Year": 1404,
+    "Semester": 1
+  },
   "26703-1": {
     "Code": "26703",
     "Group": 1,
@@ -19239,12 +19257,36 @@
     "ExamTime": null,
     "Sessions": [
       {
-        "day_of_week": 1,
+        "day_of_week": 3,
         "start_time": "13:00",
         "end_time": "15:00"
       }
     ],
     "Info": "اختیاری ب م.شیمی",
+    "Department": "مهندسی شیمی و نفت",
+    "DepartmentCode": 26,
+    "Grade": "bs",
+    "Year": 1404,
+    "Semester": 1
+  },
+  "26749-1": {
+    "Code": "26749",
+    "Group": 1,
+    "Name": "فرآیند پالایش نفت و گاز",
+    "Lecturer": "سعید پاک سرشت",
+    "Capacity": 20,
+    "Registered": 0,
+    "Units": 3,
+    "ExamDate": null,
+    "ExamTime": null,
+    "Sessions": [
+      {
+        "day_of_week": 3,
+        "start_time": "16:00",
+        "end_time": "19:00"
+      }
+    ],
+    "Info": "اختیاری\"ب\"م شیمی-اختیاری\"ب\"م نفت)ورودی 1401 و ماقبل\r\nاختیاری گزینشی م.نفت 1402",
     "Department": "مهندسی شیمی و نفت",
     "DepartmentCode": 26,
     "Grade": "bs",
@@ -19451,12 +19493,12 @@
     "ExamTime": null,
     "Sessions": [
       {
-        "day_of_week": 1,
+        "day_of_week": 0,
         "start_time": "10:30",
         "end_time": "12:00"
       },
       {
-        "day_of_week": 3,
+        "day_of_week": 2,
         "start_time": "10:30",
         "end_time": "12:00"
       }
@@ -19688,7 +19730,7 @@
         "end_time": "12:00"
       }
     ],
-    "Info": "ورودی 1404-فرایندهای جداسازی",
+    "Info": "ورودی 1404-فرایندهای جداسازی-طراحی فرایند",
     "Department": "مهندسی شیمی و نفت",
     "DepartmentCode": 26,
     "Grade": "bs",
@@ -19949,7 +19991,7 @@
         "end_time": "12:00"
       }
     ],
-    "Info": "ورودی 1404-فرایندهای جداسازی",
+    "Info": "ورودی 1404-فرایندهای جداسازی-شبیه سازی و کنترل",
     "Department": "مهندسی شیمی و نفت",
     "DepartmentCode": 26,
     "Grade": "bs",
@@ -20271,7 +20313,7 @@
         "end_time": "12:00"
       }
     ],
-    "Info": "ورودی 1404- بیوتکنولوژی",
+    "Info": "ورودی 1404-بیوتکنولوژی",
     "Department": "مهندسی شیمی و نفت",
     "DepartmentCode": 26,
     "Grade": "bs",
@@ -20423,8 +20465,8 @@
     "Capacity": 40,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/21",
+    "ExamTime": "09:00",
     "Sessions": [
       {
         "day_of_week": 1,
@@ -20452,8 +20494,8 @@
     "Capacity": 40,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/21",
+    "ExamTime": "09:00",
     "Sessions": [
       {
         "day_of_week": 1,
@@ -20481,8 +20523,8 @@
     "Capacity": 40,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/21",
+    "ExamTime": "09:00",
     "Sessions": [
       {
         "day_of_week": 0,
@@ -20510,8 +20552,8 @@
     "Capacity": 40,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/21",
+    "ExamTime": "15:00",
     "Sessions": [
       {
         "day_of_week": 1,
@@ -20539,8 +20581,8 @@
     "Capacity": 40,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/21",
+    "ExamTime": "15:00",
     "Sessions": [
       {
         "day_of_week": 1,
@@ -20568,8 +20610,8 @@
     "Capacity": 20,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/20",
+    "ExamTime": "09:00",
     "Sessions": [
       {
         "day_of_week": 0,
@@ -20597,8 +20639,8 @@
     "Capacity": 40,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/29",
+    "ExamTime": "09:00",
     "Sessions": [
       {
         "day_of_week": 0,
@@ -20626,8 +20668,8 @@
     "Capacity": 40,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/24",
+    "ExamTime": "09:00",
     "Sessions": [
       {
         "day_of_week": 1,
@@ -20655,8 +20697,8 @@
     "Capacity": 40,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/22",
+    "ExamTime": "09:00",
     "Sessions": [
       {
         "day_of_week": 0,
@@ -20684,8 +20726,8 @@
     "Capacity": 40,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/29",
+    "ExamTime": "09:00",
     "Sessions": [
       {
         "day_of_week": 0,
@@ -20713,8 +20755,8 @@
     "Capacity": 20,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/23",
+    "ExamTime": "15:00",
     "Sessions": [
       {
         "day_of_week": 1,
@@ -20742,8 +20784,8 @@
     "Capacity": 40,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/25",
+    "ExamTime": "15:00",
     "Sessions": [
       {
         "day_of_week": 1,
@@ -20867,8 +20909,8 @@
     "Capacity": 40,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/20",
+    "ExamTime": "09:00",
     "Sessions": [
       {
         "day_of_week": 0,
@@ -20992,8 +21034,8 @@
     "Capacity": 40,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/22",
+    "ExamTime": "15:00",
     "Sessions": [
       {
         "day_of_week": 1,
@@ -21021,8 +21063,8 @@
     "Capacity": 30,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/23",
+    "ExamTime": "09:00",
     "Sessions": [
       {
         "day_of_week": 0,
@@ -21050,8 +21092,8 @@
     "Capacity": 40,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/24",
+    "ExamTime": "15:00",
     "Sessions": [
       {
         "day_of_week": 0,
@@ -21175,8 +21217,8 @@
     "Capacity": 40,
     "Registered": 0,
     "Units": 2,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/20",
+    "ExamTime": "09:00",
     "Sessions": [
       {
         "day_of_week": 0,
@@ -21199,8 +21241,8 @@
     "Capacity": 40,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/28",
+    "ExamTime": "09:00",
     "Sessions": [
       {
         "day_of_week": 0,
@@ -21276,8 +21318,8 @@
     "Capacity": 20,
     "Registered": 0,
     "Units": 2,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/21",
+    "ExamTime": "15:00",
     "Sessions": [
       {
         "day_of_week": 3,
@@ -21300,8 +21342,8 @@
     "Capacity": 25,
     "Registered": 0,
     "Units": 2,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/21",
+    "ExamTime": "15:00",
     "Sessions": [
       {
         "day_of_week": 1,
@@ -21340,16 +21382,16 @@
     "Year": 1404,
     "Semester": 1
   },
-  "27044-2": {
+  "27044-1": {
     "Code": "27044",
-    "Group": 2,
+    "Group": 1,
     "Name": "اصول شکل‌دهی فلزات",
-    "Lecturer": "سیامک سراج زاده",
+    "Lecturer": "عباس اکبرزاده چنگیز",
     "Capacity": 40,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/30",
+    "ExamTime": "09:00",
     "Sessions": [
       {
         "day_of_week": 1,
@@ -21369,16 +21411,16 @@
     "Year": 1404,
     "Semester": 1
   },
-  "27044-1": {
+  "27044-2": {
     "Code": "27044",
-    "Group": 1,
+    "Group": 2,
     "Name": "اصول شکل‌دهی فلزات",
-    "Lecturer": "عباس اکبرزاده چنگیز",
+    "Lecturer": "سیامک سراج زاده",
     "Capacity": 40,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/30",
+    "ExamTime": "09:00",
     "Sessions": [
       {
         "day_of_week": 1,
@@ -21430,8 +21472,8 @@
     "Capacity": 40,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/28",
+    "ExamTime": "15:00",
     "Sessions": [
       {
         "day_of_week": 0,
@@ -21507,8 +21549,8 @@
     "Capacity": 40,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/23",
+    "ExamTime": "09:00",
     "Sessions": [
       {
         "day_of_week": 1,
@@ -21536,8 +21578,8 @@
     "Capacity": 30,
     "Registered": 0,
     "Units": 2,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/22",
+    "ExamTime": "09:00",
     "Sessions": [
       {
         "day_of_week": 0,
@@ -21560,8 +21602,8 @@
     "Capacity": 40,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/11/01",
+    "ExamTime": "09:00",
     "Sessions": [
       {
         "day_of_week": 0,
@@ -21589,8 +21631,8 @@
     "Capacity": 40,
     "Registered": 0,
     "Units": 2,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/11/01",
+    "ExamTime": "09:00",
     "Sessions": [
       {
         "day_of_week": 0,
@@ -21613,8 +21655,8 @@
     "Capacity": 40,
     "Registered": 0,
     "Units": 2,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/11/01",
+    "ExamTime": "09:00",
     "Sessions": [
       {
         "day_of_week": 3,
@@ -21637,8 +21679,8 @@
     "Capacity": 40,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/28",
+    "ExamTime": "09:00",
     "Sessions": [
       {
         "day_of_week": 0,
@@ -21666,8 +21708,8 @@
     "Capacity": 40,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/24",
+    "ExamTime": "15:00",
     "Sessions": [
       {
         "day_of_week": 0,
@@ -21719,8 +21761,8 @@
     "Capacity": 40,
     "Registered": 0,
     "Units": 2,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/28",
+    "ExamTime": "15:00",
     "Sessions": [
       {
         "day_of_week": 3,
@@ -21743,8 +21785,8 @@
     "Capacity": 40,
     "Registered": 0,
     "Units": 2,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/24",
+    "ExamTime": "15:00",
     "Sessions": [
       {
         "day_of_week": 2,
@@ -21777,16 +21819,16 @@
     "Year": 1404,
     "Semester": 1
   },
-  "27125-1": {
-    "Code": "27125",
+  "27126-1": {
+    "Code": "27126",
     "Group": 1,
     "Name": "خواص مکانیکی مواد ۲",
     "Lecturer": "باهره تکیه معروف",
     "Capacity": 40,
     "Registered": 0,
-    "Units": 2,
-    "ExamDate": null,
-    "ExamTime": null,
+    "Units": 3,
+    "ExamDate": "1404/10/25",
+    "ExamTime": "15:00",
     "Sessions": [
       {
         "day_of_week": 0,
@@ -21814,8 +21856,8 @@
     "Capacity": 12,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/30",
+    "ExamTime": "15:00",
     "Sessions": [
       {
         "day_of_week": 0,
@@ -21843,8 +21885,8 @@
     "Capacity": 12,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/30",
+    "ExamTime": "15:00",
     "Sessions": [
       {
         "day_of_week": 0,
@@ -21890,8 +21932,8 @@
     "Capacity": 40,
     "Registered": 0,
     "Units": 2,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/29",
+    "ExamTime": "09:00",
     "Sessions": [
       {
         "day_of_week": 2,
@@ -21986,8 +22028,8 @@
     "Capacity": 25,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/11/01",
+    "ExamTime": "09:00",
     "Sessions": [
       {
         "day_of_week": 1,
@@ -22015,8 +22057,8 @@
     "Capacity": 25,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/29",
+    "ExamTime": "09:00",
     "Sessions": [
       {
         "day_of_week": 1,
@@ -22044,8 +22086,8 @@
     "Capacity": 25,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/21",
+    "ExamTime": "09:00",
     "Sessions": [],
     "Info": null,
     "Department": "مهندسی و علم مواد",
@@ -22062,8 +22104,8 @@
     "Capacity": 25,
     "Registered": 0,
     "Units": 2,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/30",
+    "ExamTime": "15:00",
     "Sessions": [
       {
         "day_of_week": 4,
@@ -22086,8 +22128,8 @@
     "Capacity": 25,
     "Registered": 0,
     "Units": 2,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/23",
+    "ExamTime": "09:00",
     "Sessions": [
       {
         "day_of_week": 1,
@@ -22158,8 +22200,8 @@
     "Capacity": 25,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/25",
+    "ExamTime": "09:00",
     "Sessions": [
       {
         "day_of_week": 1,
@@ -22187,8 +22229,8 @@
     "Capacity": 25,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/25",
+    "ExamTime": "09:00",
     "Sessions": [
       {
         "day_of_week": 0,
@@ -22216,8 +22258,8 @@
     "Capacity": 25,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/25",
+    "ExamTime": "09:00",
     "Sessions": [
       {
         "day_of_week": 1,
@@ -22245,8 +22287,8 @@
     "Capacity": 25,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/18",
+    "ExamTime": "09:00",
     "Sessions": [
       {
         "day_of_week": 0,
@@ -22274,8 +22316,8 @@
     "Capacity": 25,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/21",
+    "ExamTime": "15:00",
     "Sessions": [
       {
         "day_of_week": 0,
@@ -22327,8 +22369,8 @@
     "Capacity": 25,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/23",
+    "ExamTime": "09:00",
     "Sessions": [
       {
         "day_of_week": 0,
@@ -22380,8 +22422,8 @@
     "Capacity": 25,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/28",
+    "ExamTime": "15:00",
     "Sessions": [
       {
         "day_of_week": 1,
@@ -22433,8 +22475,8 @@
     "Capacity": 25,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/25",
+    "ExamTime": "15:00",
     "Sessions": [
       {
         "day_of_week": 0,
@@ -22462,8 +22504,8 @@
     "Capacity": 25,
     "Registered": 0,
     "Units": 2,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/11/01",
+    "ExamTime": "15:00",
     "Sessions": [
       {
         "day_of_week": 2,
@@ -22486,8 +22528,8 @@
     "Capacity": 25,
     "Registered": 0,
     "Units": 2,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/29",
+    "ExamTime": "15:00",
     "Sessions": [
       {
         "day_of_week": 0,
@@ -22510,8 +22552,8 @@
     "Capacity": 25,
     "Registered": 0,
     "Units": 2,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/30",
+    "ExamTime": "15:00",
     "Sessions": [
       {
         "day_of_week": 3,
@@ -22534,8 +22576,8 @@
     "Capacity": 25,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/24",
+    "ExamTime": "09:00",
     "Sessions": [
       {
         "day_of_week": 0,
@@ -22563,8 +22605,8 @@
     "Capacity": 25,
     "Registered": 0,
     "Units": 2,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/20",
+    "ExamTime": "09:00",
     "Sessions": [
       {
         "day_of_week": 1,
@@ -22587,8 +22629,8 @@
     "Capacity": 25,
     "Registered": 0,
     "Units": 2,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/30",
+    "ExamTime": "09:00",
     "Sessions": [
       {
         "day_of_week": 1,
@@ -22611,8 +22653,8 @@
     "Capacity": 25,
     "Registered": 0,
     "Units": 2,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/18",
+    "ExamTime": "09:00",
     "Sessions": [
       {
         "day_of_week": 0,
@@ -22635,8 +22677,8 @@
     "Capacity": 25,
     "Registered": 0,
     "Units": 2,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/23",
+    "ExamTime": "15:00",
     "Sessions": [
       {
         "day_of_week": 3,
@@ -22659,8 +22701,8 @@
     "Capacity": 25,
     "Registered": 0,
     "Units": 2,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/29",
+    "ExamTime": "15:00",
     "Sessions": [
       {
         "day_of_week": 2,
@@ -22683,8 +22725,8 @@
     "Capacity": 25,
     "Registered": 0,
     "Units": 2,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/11/02",
+    "ExamTime": "15:00",
     "Sessions": [
       {
         "day_of_week": 2,
@@ -22707,8 +22749,8 @@
     "Capacity": 25,
     "Registered": 0,
     "Units": 2,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/22",
+    "ExamTime": "09:00",
     "Sessions": [
       {
         "day_of_week": 4,
@@ -22731,8 +22773,8 @@
     "Capacity": 25,
     "Registered": 0,
     "Units": 1,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/18",
+    "ExamTime": "15:00",
     "Sessions": [
       {
         "day_of_week": 1,
@@ -22755,8 +22797,8 @@
     "Capacity": 25,
     "Registered": 0,
     "Units": 2,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/24",
+    "ExamTime": "15:00",
     "Sessions": [
       {
         "day_of_week": 2,
@@ -22779,8 +22821,8 @@
     "Capacity": 25,
     "Registered": 0,
     "Units": 2,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/28",
+    "ExamTime": "09:00",
     "Sessions": [
       {
         "day_of_week": 1,
@@ -22857,8 +22899,8 @@
     "Capacity": 25,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/11/02",
+    "ExamTime": "09:00",
     "Sessions": [
       {
         "day_of_week": 0,
@@ -22904,8 +22946,8 @@
     "Capacity": 25,
     "Registered": 0,
     "Units": 2,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/11/02",
+    "ExamTime": "09:00",
     "Sessions": [
       {
         "day_of_week": 0,
@@ -22928,8 +22970,8 @@
     "Capacity": 25,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/20",
+    "ExamTime": "15:00",
     "Sessions": [
       {
         "day_of_week": 0,
@@ -23083,35 +23125,6 @@
     "Year": 1404,
     "Semester": 1
   },
-  "28162-2": {
-    "Code": "28162",
-    "Group": 2,
-    "Name": "ترمودینامیک ۲",
-    "Lecturer": "سیامک کاظم زاده حنانی",
-    "Capacity": 35,
-    "Registered": 0,
-    "Units": 3,
-    "ExamDate": "1404/10/24",
-    "ExamTime": "15:00",
-    "Sessions": [
-      {
-        "day_of_week": 0,
-        "start_time": "10:30",
-        "end_time": "12:00"
-      },
-      {
-        "day_of_week": 2,
-        "start_time": "10:30",
-        "end_time": "12:00"
-      }
-    ],
-    "Info": null,
-    "Department": "مهندسی مکانیک",
-    "DepartmentCode": 28,
-    "Grade": "bs",
-    "Year": 1404,
-    "Semester": 1
-  },
   "28162-1": {
     "Code": "28162",
     "Group": 1,
@@ -23132,6 +23145,35 @@
         "day_of_week": 3,
         "start_time": "09:00",
         "end_time": "10:30"
+      }
+    ],
+    "Info": null,
+    "Department": "مهندسی مکانیک",
+    "DepartmentCode": 28,
+    "Grade": "bs",
+    "Year": 1404,
+    "Semester": 1
+  },
+  "28162-2": {
+    "Code": "28162",
+    "Group": 2,
+    "Name": "ترمودینامیک ۲",
+    "Lecturer": "سیامک کاظم زاده حنانی",
+    "Capacity": 35,
+    "Registered": 0,
+    "Units": 3,
+    "ExamDate": "1404/10/24",
+    "ExamTime": "15:00",
+    "Sessions": [
+      {
+        "day_of_week": 0,
+        "start_time": "10:30",
+        "end_time": "12:00"
+      },
+      {
+        "day_of_week": 2,
+        "start_time": "10:30",
+        "end_time": "12:00"
       }
     ],
     "Info": null,
@@ -23377,12 +23419,12 @@
     "Code": "28261",
     "Group": 1,
     "Name": "استاتیک",
-    "Lecturer": "",
+    "Lecturer": "امین طلائی زاده",
     "Capacity": 30,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/24",
+    "ExamTime": "15:00",
     "Sessions": [
       {
         "day_of_week": 0,
@@ -23425,35 +23467,6 @@
       }
     ],
     "Info": "مخصوص دانشجویان دانشکده مواد",
-    "Department": "مهندسی مکانیک",
-    "DepartmentCode": 28,
-    "Grade": "bs",
-    "Year": 1404,
-    "Semester": 1
-  },
-  "28262-3": {
-    "Code": "28262",
-    "Group": 3,
-    "Name": "مقاومت مصالح ۱",
-    "Lecturer": "فمیدا فلاح رجب زاده",
-    "Capacity": 30,
-    "Registered": 0,
-    "Units": 3,
-    "ExamDate": "1404/10/22",
-    "ExamTime": "09:00",
-    "Sessions": [
-      {
-        "day_of_week": 1,
-        "start_time": "09:00",
-        "end_time": "10:30"
-      },
-      {
-        "day_of_week": 3,
-        "start_time": "09:00",
-        "end_time": "10:30"
-      }
-    ],
-    "Info": null,
     "Department": "مهندسی مکانیک",
     "DepartmentCode": 28,
     "Grade": "bs",
@@ -23509,6 +23522,35 @@
         "day_of_week": 2,
         "start_time": "10:30",
         "end_time": "12:00"
+      }
+    ],
+    "Info": null,
+    "Department": "مهندسی مکانیک",
+    "DepartmentCode": 28,
+    "Grade": "bs",
+    "Year": 1404,
+    "Semester": 1
+  },
+  "28262-3": {
+    "Code": "28262",
+    "Group": 3,
+    "Name": "مقاومت مصالح ۱",
+    "Lecturer": "فمیدا فلاح رجب زاده",
+    "Capacity": 30,
+    "Registered": 0,
+    "Units": 3,
+    "ExamDate": "1404/10/22",
+    "ExamTime": "09:00",
+    "Sessions": [
+      {
+        "day_of_week": 1,
+        "start_time": "09:00",
+        "end_time": "10:30"
+      },
+      {
+        "day_of_week": 3,
+        "start_time": "09:00",
+        "end_time": "10:30"
       }
     ],
     "Info": null,
@@ -24071,7 +24113,7 @@
     "ExamTime": "15:00",
     "Sessions": [
       {
-        "day_of_week": 1,
+        "day_of_week": 2,
         "start_time": "13:00",
         "end_time": "15:00"
       }
@@ -24179,30 +24221,6 @@
     "Year": 1404,
     "Semester": 1
   },
-  "28637-2": {
-    "Code": "28637",
-    "Group": 2,
-    "Name": "محاسبات عددی",
-    "Lecturer": "سیدمسعود علی پور حسینی نیاکی",
-    "Capacity": 35,
-    "Registered": 0,
-    "Units": 2,
-    "ExamDate": "1404/10/21",
-    "ExamTime": "09:00",
-    "Sessions": [
-      {
-        "day_of_week": 3,
-        "start_time": "15:00",
-        "end_time": "17:00"
-      }
-    ],
-    "Info": null,
-    "Department": "مهندسی مکانیک",
-    "DepartmentCode": 28,
-    "Grade": "bs",
-    "Year": 1404,
-    "Semester": 1
-  },
   "28637-1": {
     "Code": "28637",
     "Group": 1,
@@ -24218,6 +24236,30 @@
         "day_of_week": 3,
         "start_time": "13:00",
         "end_time": "15:00"
+      }
+    ],
+    "Info": null,
+    "Department": "مهندسی مکانیک",
+    "DepartmentCode": 28,
+    "Grade": "bs",
+    "Year": 1404,
+    "Semester": 1
+  },
+  "28637-2": {
+    "Code": "28637",
+    "Group": 2,
+    "Name": "محاسبات عددی",
+    "Lecturer": "سیدمسعود علی پور حسینی نیاکی",
+    "Capacity": 35,
+    "Registered": 0,
+    "Units": 2,
+    "ExamDate": "1404/10/21",
+    "ExamTime": "09:00",
+    "Sessions": [
+      {
+        "day_of_week": 3,
+        "start_time": "15:00",
+        "end_time": "17:00"
       }
     ],
     "Info": null,
@@ -24343,30 +24385,6 @@
     "Year": 1404,
     "Semester": 1
   },
-  "28701-1": {
-    "Code": "28701",
-    "Group": 1,
-    "Name": "آز مقاومت مصالح",
-    "Lecturer": "محسن اصغری",
-    "Capacity": 25,
-    "Registered": 0,
-    "Units": 1,
-    "ExamDate": null,
-    "ExamTime": null,
-    "Sessions": [
-      {
-        "day_of_week": 1,
-        "start_time": "13:00",
-        "end_time": "15:00"
-      }
-    ],
-    "Info": "همزمان با مقاومت مصالح2 اخذ گردد- امکان حذف w ندارد",
-    "Department": "مهندسی مکانیک",
-    "DepartmentCode": 28,
-    "Grade": "bs",
-    "Year": 1404,
-    "Semester": 1
-  },
   "28701-2": {
     "Code": "28701",
     "Group": 2,
@@ -24391,12 +24409,12 @@
     "Year": 1404,
     "Semester": 1
   },
-  "28702-3": {
-    "Code": "28702",
-    "Group": 3,
-    "Name": "آز ترمودینامیک",
-    "Lecturer": "محمدحسن سعیدی،  حسینیان فرد",
-    "Capacity": 16,
+  "28701-1": {
+    "Code": "28701",
+    "Group": 1,
+    "Name": "آز مقاومت مصالح",
+    "Lecturer": "محسن اصغری",
+    "Capacity": 25,
     "Registered": 0,
     "Units": 1,
     "ExamDate": null,
@@ -24404,11 +24422,11 @@
     "Sessions": [
       {
         "day_of_week": 1,
-        "start_time": "15:00",
-        "end_time": "17:00"
+        "start_time": "13:00",
+        "end_time": "15:00"
       }
     ],
-    "Info": "همزمان با ترمودینامیک2 اخذ شود. امکان حذف w ندارد",
+    "Info": "همزمان با مقاومت مصالح2 اخذ گردد- امکان حذف w ندارد",
     "Department": "مهندسی مکانیک",
     "DepartmentCode": 28,
     "Grade": "bs",
@@ -24430,6 +24448,54 @@
         "day_of_week": 0,
         "start_time": "13:00",
         "end_time": "15:00"
+      }
+    ],
+    "Info": "همزمان با ترمودینامیک2 اخذ شود. امکان حذف w ندارد",
+    "Department": "مهندسی مکانیک",
+    "DepartmentCode": 28,
+    "Grade": "bs",
+    "Year": 1404,
+    "Semester": 1
+  },
+  "28702-2": {
+    "Code": "28702",
+    "Group": 2,
+    "Name": "آز ترمودینامیک",
+    "Lecturer": "محمدحسن سعیدی،  حسینیان فرد",
+    "Capacity": 16,
+    "Registered": 0,
+    "Units": 1,
+    "ExamDate": null,
+    "ExamTime": null,
+    "Sessions": [
+      {
+        "day_of_week": 0,
+        "start_time": "15:00",
+        "end_time": "17:00"
+      }
+    ],
+    "Info": "همزمان با ترمودینامیک2 اخذ شود. امکان حذف w ندارد",
+    "Department": "مهندسی مکانیک",
+    "DepartmentCode": 28,
+    "Grade": "bs",
+    "Year": 1404,
+    "Semester": 1
+  },
+  "28702-3": {
+    "Code": "28702",
+    "Group": 3,
+    "Name": "آز ترمودینامیک",
+    "Lecturer": "محمدحسن سعیدی،  حسینیان فرد",
+    "Capacity": 16,
+    "Registered": 0,
+    "Units": 1,
+    "ExamDate": null,
+    "ExamTime": null,
+    "Sessions": [
+      {
+        "day_of_week": 1,
+        "start_time": "15:00",
+        "end_time": "17:00"
       }
     ],
     "Info": "همزمان با ترمودینامیک2 اخذ شود. امکان حذف w ندارد",
@@ -24463,33 +24529,9 @@
     "Year": 1404,
     "Semester": 1
   },
-  "28702-2": {
-    "Code": "28702",
-    "Group": 2,
-    "Name": "آز ترمودینامیک",
-    "Lecturer": "محمدحسن سعیدی،  حسینیان فرد",
-    "Capacity": 16,
-    "Registered": 0,
-    "Units": 1,
-    "ExamDate": null,
-    "ExamTime": null,
-    "Sessions": [
-      {
-        "day_of_week": 2,
-        "start_time": "15:00",
-        "end_time": "17:00"
-      }
-    ],
-    "Info": "همزمان با ترمودینامیک2 اخذ شود. امکان حذف w ندارد",
-    "Department": "مهندسی مکانیک",
-    "DepartmentCode": 28,
-    "Grade": "bs",
-    "Year": 1404,
-    "Semester": 1
-  },
-  "28703-4": {
+  "28703-3": {
     "Code": "28703",
-    "Group": 4,
+    "Group": 3,
     "Name": "آز مکانیک سیالات",
     "Lecturer": "بیژن فرهانیه،  مساوات",
     "Capacity": 16,
@@ -24499,33 +24541,9 @@
     "ExamTime": null,
     "Sessions": [
       {
-        "day_of_week": 4,
-        "start_time": "10:00",
-        "end_time": "12:00"
-      }
-    ],
-    "Info": "همزمان با سیالات2 اخذ شود. امکان حذف w ندارد",
-    "Department": "مهندسی مکانیک",
-    "DepartmentCode": 28,
-    "Grade": "bs",
-    "Year": 1404,
-    "Semester": 1
-  },
-  "28703-2": {
-    "Code": "28703",
-    "Group": 2,
-    "Name": "آز مکانیک سیالات",
-    "Lecturer": "بیژن فرهانیه،  مساوات",
-    "Capacity": 16,
-    "Registered": 0,
-    "Units": 1,
-    "ExamDate": null,
-    "ExamTime": null,
-    "Sessions": [
-      {
-        "day_of_week": 2,
-        "start_time": "15:00",
-        "end_time": "17:00"
+        "day_of_week": 0,
+        "start_time": "13:00",
+        "end_time": "15:00"
       }
     ],
     "Info": "همزمان با سیالات2 اخذ شود. امکان حذف w ندارد",
@@ -24559,9 +24577,9 @@
     "Year": 1404,
     "Semester": 1
   },
-  "28703-3": {
+  "28703-2": {
     "Code": "28703",
-    "Group": 3,
+    "Group": 2,
     "Name": "آز مکانیک سیالات",
     "Lecturer": "بیژن فرهانیه،  مساوات",
     "Capacity": 16,
@@ -24571,9 +24589,9 @@
     "ExamTime": null,
     "Sessions": [
       {
-        "day_of_week": 0,
-        "start_time": "13:00",
-        "end_time": "15:00"
+        "day_of_week": 2,
+        "start_time": "15:00",
+        "end_time": "17:00"
       }
     ],
     "Info": "همزمان با سیالات2 اخذ شود. امکان حذف w ندارد",
@@ -24759,10 +24777,16 @@
     "Capacity": 8,
     "Registered": 0,
     "Units": 1,
-    "ExamDate": null,
-    "ExamTime": null,
-    "Sessions": [],
-    "Info": "امکان حذف w ندارد.",
+    "ExamDate": "1404/10/10",
+    "ExamTime": "09:00",
+    "Sessions": [
+      {
+        "day_of_week": 1,
+        "start_time": "13:00",
+        "end_time": "15:00"
+      }
+    ],
+    "Info": "امکان حذف w ندارد. ساعت امتحان 13:30 می باشد",
     "Department": "مهندسی مکانیک",
     "DepartmentCode": 28,
     "Grade": "bs",
@@ -24777,10 +24801,16 @@
     "Capacity": 8,
     "Registered": 0,
     "Units": 1,
-    "ExamDate": null,
-    "ExamTime": null,
-    "Sessions": [],
-    "Info": "امکان حذف w ندارد.",
+    "ExamDate": "1404/10/10",
+    "ExamTime": "09:00",
+    "Sessions": [
+      {
+        "day_of_week": 1,
+        "start_time": "15:00",
+        "end_time": "17:00"
+      }
+    ],
+    "Info": "امکان حذف w ندارد. ساعت امتحان 13:30 می باشد",
     "Department": "مهندسی مکانیک",
     "DepartmentCode": 28,
     "Grade": "bs",
@@ -24819,8 +24849,8 @@
     "Capacity": 25,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": null,
-    "ExamTime": null,
+    "ExamDate": "1404/10/23",
+    "ExamTime": "15:00",
     "Sessions": [
       {
         "day_of_week": 1,
@@ -24853,13 +24883,13 @@
     "Sessions": [
       {
         "day_of_week": 1,
-        "start_time": "07:30",
-        "end_time": "09:00"
+        "start_time": "16:30",
+        "end_time": "18:00"
       },
       {
         "day_of_week": 3,
-        "start_time": "07:30",
-        "end_time": "09:00"
+        "start_time": "16:30",
+        "end_time": "18:00"
       }
     ],
     "Info": null,
@@ -24877,7 +24907,7 @@
     "Capacity": 30,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": "1404/10/23",
+    "ExamDate": "1404/10/18",
     "ExamTime": "15:00",
     "Sessions": [
       {
@@ -24906,7 +24936,7 @@
     "Capacity": 30,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": "1404/10/23",
+    "ExamDate": "1404/10/18",
     "ExamTime": "15:00",
     "Sessions": [
       {
@@ -24935,7 +24965,7 @@
     "Capacity": 30,
     "Registered": 0,
     "Units": 3,
-    "ExamDate": "1404/10/23",
+    "ExamDate": "1404/10/18",
     "ExamTime": "15:00",
     "Sessions": [
       {
@@ -25124,7 +25154,7 @@
     "Capacity": 25,
     "Registered": 0,
     "Units": 2,
-    "ExamDate": "1404/10/18",
+    "ExamDate": "1404/10/23",
     "ExamTime": "15:00",
     "Sessions": [
       {
@@ -25207,13 +25237,13 @@
     "Sessions": [
       {
         "day_of_week": 1,
-        "start_time": "13:30",
-        "end_time": "15:00"
+        "start_time": "16:30",
+        "end_time": "18:00"
       },
       {
         "day_of_week": 3,
-        "start_time": "13:30",
-        "end_time": "15:00"
+        "start_time": "16:30",
+        "end_time": "18:00"
       }
     ],
     "Info": null,
@@ -26273,6 +26303,30 @@
         "day_of_week": 3,
         "start_time": "10:30",
         "end_time": "12:00"
+      }
+    ],
+    "Info": null,
+    "Department": "مهندسی مکانیک",
+    "DepartmentCode": 28,
+    "Grade": "bs",
+    "Year": 1404,
+    "Semester": 1
+  },
+  "28231-1": {
+    "Code": "28231",
+    "Group": 1,
+    "Name": "آز روباتیک",
+    "Lecturer": "علیرضا طاهری",
+    "Capacity": 8,
+    "Registered": 0,
+    "Units": 1,
+    "ExamDate": null,
+    "ExamTime": null,
+    "Sessions": [
+      {
+        "day_of_week": 2,
+        "start_time": "13:30",
+        "end_time": "15:00"
       }
     ],
     "Info": null,
@@ -30078,8 +30132,8 @@
     "Sessions": [
       {
         "day_of_week": 4,
-        "start_time": "13:30",
-        "end_time": "16:30"
+        "start_time": "13:00",
+        "end_time": "16:00"
       }
     ],
     "Info": null,
@@ -37134,6 +37188,35 @@
     "Year": 1404,
     "Semester": 1
   },
+  "45436-1": {
+    "Code": "45436",
+    "Group": 1,
+    "Name": "دینامیک وضعیت ماهواره",
+    "Lecturer": "مریم ملک زاده",
+    "Capacity": 25,
+    "Registered": 0,
+    "Units": 3,
+    "ExamDate": "1404/10/20",
+    "ExamTime": "09:00",
+    "Sessions": [
+      {
+        "day_of_week": 0,
+        "start_time": "09:00",
+        "end_time": "10:30"
+      },
+      {
+        "day_of_week": 2,
+        "start_time": "09:00",
+        "end_time": "10:30"
+      }
+    ],
+    "Info": null,
+    "Department": "مهندسی هوافضا",
+    "DepartmentCode": 45,
+    "Grade": "bs",
+    "Year": 1404,
+    "Semester": 1
+  },
   "45500-1": {
     "Code": "45500",
     "Group": 1,
@@ -39376,7 +39459,7 @@
       {
         "day_of_week": 1,
         "start_time": "13:30",
-        "end_time": "15:00"
+        "end_time": "15:30"
       }
     ],
     "Info": null,
@@ -42453,7 +42536,7 @@
     "Registered": 0,
     "Units": 3,
     "ExamDate": "1404/10/20",
-    "ExamTime": "12:30",
+    "ExamTime": "09:00",
     "Sessions": [
       {
         "day_of_week": 3,
@@ -42558,7 +42641,12 @@
     "Sessions": [
       {
         "day_of_week": 5,
-        "start_time": "16:30",
+        "start_time": "15:00",
+        "end_time": "16:30"
+      },
+      {
+        "day_of_week": 5,
+        "start_time": "18:00",
         "end_time": "19:30"
       }
     ],
@@ -42587,8 +42675,8 @@
       },
       {
         "day_of_week": 5,
-        "start_time": "13:30",
-        "end_time": "15:00"
+        "start_time": "16:30",
+        "end_time": "18:00"
       }
     ],
     "Info": "توجه: درس در هفته های زوج بصورت حضوری ودر هفته های فرد بصورت مجازی برگزار خواهد شد.",
@@ -44318,6 +44406,162 @@
     "Year": 1404,
     "Semester": 1
   },
+  "65115-1": {
+    "Code": "65115",
+    "Group": 1,
+    "Name": "آئرودینامیک ۱",
+    "Lecturer": "",
+    "Capacity": 35,
+    "Registered": 0,
+    "Units": 3,
+    "ExamDate": null,
+    "ExamTime": null,
+    "Sessions": [
+      {
+        "day_of_week": 1,
+        "start_time": "15:00",
+        "end_time": "16:30"
+      },
+      {
+        "day_of_week": 3,
+        "start_time": "15:00",
+        "end_time": "16:30"
+      },
+      {
+        "day_of_week": 5,
+        "start_time": "13:30",
+        "end_time": "15:00"
+      },
+      {
+        "day_of_week": 5,
+        "start_time": "16:30",
+        "end_time": "18:00"
+      }
+    ],
+    "Info": "توجه: درس در هفته های فرد روز پنجشنبه بصورت حضوری ودر هفته های زوج روزهای یکشنبه و سه شنبه بصورت مجازی برگزار خواهد شد.",
+    "Department": "مهندسی هوافضا (پردیس کیش)",
+    "DepartmentCode": 65,
+    "Grade": "bs",
+    "Year": 1404,
+    "Semester": 1
+  },
+  "65136-1": {
+    "Code": "65136",
+    "Group": 1,
+    "Name": "تحلیل سازه‌های هوافضائی",
+    "Lecturer": "نورالدین فضلی",
+    "Capacity": 35,
+    "Registered": 0,
+    "Units": 3,
+    "ExamDate": null,
+    "ExamTime": null,
+    "Sessions": [
+      {
+        "day_of_week": 0,
+        "start_time": "16:30",
+        "end_time": "18:00"
+      },
+      {
+        "day_of_week": 2,
+        "start_time": "16:30",
+        "end_time": "18:00"
+      },
+      {
+        "day_of_week": 5,
+        "start_time": "12:00",
+        "end_time": "13:30"
+      },
+      {
+        "day_of_week": 5,
+        "start_time": "09:00",
+        "end_time": "10:30"
+      }
+    ],
+    "Info": "توجه: درس در هفته های فرد روز پنجشنبه بصورت حضوری ودر هفته های زوج روز شنبه و دوشنبه بصورت مجازی برگزار خواهد شد.",
+    "Department": "مهندسی هوافضا (پردیس کیش)",
+    "DepartmentCode": 65,
+    "Grade": "bs",
+    "Year": 1404,
+    "Semester": 1
+  },
+  "65137-1": {
+    "Code": "65137",
+    "Group": 1,
+    "Name": "طراحی سازه‌های هوایی",
+    "Lecturer": "نورالدین فضلی",
+    "Capacity": 35,
+    "Registered": 0,
+    "Units": 3,
+    "ExamDate": null,
+    "ExamTime": null,
+    "Sessions": [
+      {
+        "day_of_week": 0,
+        "start_time": "15:00",
+        "end_time": "16:30"
+      },
+      {
+        "day_of_week": 2,
+        "start_time": "15:00",
+        "end_time": "16:30"
+      },
+      {
+        "day_of_week": 5,
+        "start_time": "13:30",
+        "end_time": "15:00"
+      },
+      {
+        "day_of_week": 5,
+        "start_time": "07:30",
+        "end_time": "09:00"
+      }
+    ],
+    "Info": "توجه: درس در هفته های زوج روزهای شنبه و دوشنبه بصورت مجازی و درهفته های فرد روز پنجشنبه بصورت حضوری برگزار خواهد شد.",
+    "Department": "مهندسی هوافضا (پردیس کیش)",
+    "DepartmentCode": 65,
+    "Grade": "bs",
+    "Year": 1404,
+    "Semester": 1
+  },
+  "65156-1": {
+    "Code": "65156",
+    "Group": 1,
+    "Name": "دینامیک پرواز ۱",
+    "Lecturer": "امیررضا کوثری",
+    "Capacity": 35,
+    "Registered": 0,
+    "Units": 3,
+    "ExamDate": null,
+    "ExamTime": null,
+    "Sessions": [
+      {
+        "day_of_week": 0,
+        "start_time": "10:30",
+        "end_time": "12:00"
+      },
+      {
+        "day_of_week": 4,
+        "start_time": "10:30",
+        "end_time": "12:00"
+      },
+      {
+        "day_of_week": 4,
+        "start_time": "16:30",
+        "end_time": "18:00"
+      },
+      {
+        "day_of_week": 5,
+        "start_time": "13:30",
+        "end_time": "15:00"
+      }
+    ],
+    "Info": "توجه: درس در هفته های زوج روز چهارشنبه ساعت 18-16:30 و روز پنجشنبه ساعت  15-13:30 بصورت حضوری ودر هفته های فرد روزهای شنبه و چهارشنبه ساعت 12-10:30 بصورت مجازی برگزار خواهد شد.",
+    "Department": "مهندسی هوافضا (پردیس کیش)",
+    "DepartmentCode": 65,
+    "Grade": "bs",
+    "Year": 1404,
+    "Semester": 1
+  },
   "65400-1": {
     "Code": "65400",
     "Group": 1,
@@ -44330,6 +44574,113 @@
     "ExamTime": null,
     "Sessions": [],
     "Info": "توجه: فقط دانشجویانی مجاز به اخذ این درس هستند که گردش کار مربوط به اخذ واحد کارآموزی را در سامانه شریف قبلاً انجام داده باشند.",
+    "Department": "مهندسی هوافضا (پردیس کیش)",
+    "DepartmentCode": 65,
+    "Grade": "bs",
+    "Year": 1404,
+    "Semester": 1
+  },
+  "65406-1": {
+    "Code": "65406",
+    "Group": 1,
+    "Name": "مقدمه‌ای بر مکانیک سیالات عددی",
+    "Lecturer": "",
+    "Capacity": 35,
+    "Registered": 0,
+    "Units": 3,
+    "ExamDate": null,
+    "ExamTime": null,
+    "Sessions": [
+      {
+        "day_of_week": 1,
+        "start_time": "13:30",
+        "end_time": "15:00"
+      },
+      {
+        "day_of_week": 3,
+        "start_time": "13:30",
+        "end_time": "15:00"
+      },
+      {
+        "day_of_week": 5,
+        "start_time": "10:30",
+        "end_time": "12:00"
+      },
+      {
+        "day_of_week": 5,
+        "start_time": "15:00",
+        "end_time": "16:30"
+      }
+    ],
+    "Info": "توجه: درس در هفته های فرد روز پنجشنبه بصورت حضوری ودر هفته های زوج روز یکشنبه و سه شنبه بصورت مجازی برگزار خواهد شد.",
+    "Department": "مهندسی هوافضا (پردیس کیش)",
+    "DepartmentCode": 65,
+    "Grade": "bs",
+    "Year": 1404,
+    "Semester": 1
+  },
+  "65407-1": {
+    "Code": "65407",
+    "Group": 1,
+    "Name": "مکانیک مدارهای فضایی",
+    "Lecturer": "امیررضا کوثری",
+    "Capacity": 35,
+    "Registered": 0,
+    "Units": 3,
+    "ExamDate": null,
+    "ExamTime": null,
+    "Sessions": [
+      {
+        "day_of_week": 0,
+        "start_time": "09:00",
+        "end_time": "10:30"
+      },
+      {
+        "day_of_week": 2,
+        "start_time": "09:00",
+        "end_time": "10:30"
+      },
+      {
+        "day_of_week": 4,
+        "start_time": "15:00",
+        "end_time": "16:30"
+      },
+      {
+        "day_of_week": 5,
+        "start_time": "09:00",
+        "end_time": "10:30"
+      }
+    ],
+    "Info": "توجه: درس در هفته های زوج روزهای 4شنبه و 5شنبه بصورت حضوری ودر هفته های فرد روزهای شنبه و یکشنبه بصورت مجازی برگزار خواهد شد.",
+    "Department": "مهندسی هوافضا (پردیس کیش)",
+    "DepartmentCode": 65,
+    "Grade": "bs",
+    "Year": 1404,
+    "Semester": 1
+  },
+  "65415-1": {
+    "Code": "65415",
+    "Group": 1,
+    "Name": "مواد و روش‌های ساخت",
+    "Lecturer": "رضا یوسفی",
+    "Capacity": 25,
+    "Registered": 0,
+    "Units": 3,
+    "ExamDate": "1404/11/01",
+    "ExamTime": "09:00",
+    "Sessions": [
+      {
+        "day_of_week": 0,
+        "start_time": "13:30",
+        "end_time": "15:00"
+      },
+      {
+        "day_of_week": 2,
+        "start_time": "13:30",
+        "end_time": "15:00"
+      }
+    ],
+    "Info": "توجه: درس هر هفته بصورت حضوری برگزار خواهد شد.\r\nمحل تشکیل کلاس : کلاس A5",
     "Department": "مهندسی هوافضا (پردیس کیش)",
     "DepartmentCode": 65,
     "Grade": "bs",

@@ -10,7 +10,7 @@ from fields import parse_name, parse_value
 TELEGRAM_TOKEN = config("TELEGRAM_TOKEN")
 TELEGRAM_API_URL = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
 
-# Private channel numeric ID
+# channel numeric ID
 CHANNEL_ID = -1002910685507
 # Test channel:
 # CHANNEL_ID = -1002914784215

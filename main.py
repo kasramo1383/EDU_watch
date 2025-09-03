@@ -201,10 +201,19 @@ def make_session() -> requests.Session:
     return s
 
 
-def get_with_ctx(session: requests.Session, url: str, method: str = "GET", data=None, allow_redirects: bool = True, timeout: int = 30) -> requests.Response:
-    if method.upper() == "POST":
-        return session.post(url, data=data, allow_redirects=allow_redirects, timeout=timeout)
-    return session.get(url, allow_redirects=allow_redirects, timeout=timeout)
+def get_with_ctx(session: requests.Session, url: str, method: str = "GET", data=None,
+                 allow_redirects: bool = True, retries: int = 5, delay: float = 2, timeout: int = 10) -> requests.Response:
+    for attempt in range(retries):
+        try:
+            if method.upper() == "POST":
+                return session.post(url, data=data, allow_redirects=allow_redirects, timeout=timeout)
+            return session.get(url, allow_redirects=allow_redirects, timeout=timeout)
+        except (requests.exceptions.Timeout, requests.exceptions.ConnectionError) as e:
+            logger.error(f"Attempt {attempt+1}/{retries} failed at request: {e}")
+            if attempt < retries - 1:
+                time.sleep(delay)
+            else:
+                raise
 
 
 def login(ctx_stop: threading.Event) -> None:
